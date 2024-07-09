@@ -2,7 +2,7 @@
 
 pacman -Syy
 
-pacman -Sy intel-ucode sudo neovim --noconfirm
+pacman -Sy amd-ucode sudo neovim --noconfirm
 
 useradd -m chris
 usermod -aG wheel chris
@@ -36,13 +36,13 @@ done
 
 locale-gen
 
-echo "LANG=zh_CN.UTF-8" >>/etc/locale.conf
+echo "LANG=zh_CN.UTF-8" >> /etc/locale.conf
 
-echo "hcz" >>/etc/hostname
+echo "hcz" >> /etc/hostname
 
-echo "127.0.0.1    localhost" >>/etc/hosts
-echo "::1          localhost" >>/etc/hosts
-echo "127.0.1.1    hcz.localdomain hcz" >>/etc/hosts
+echo "127.0.0.1    localhost" >> /etc/hosts
+echo "::1          localhost" >> /etc/hosts
+echo "127.0.1.1    hcz.localdomain hcz" >> /etc/hosts
 
 pacman -S grub efibootmgr os-prober --noconfirm
 
@@ -56,8 +56,8 @@ while true; do
 	fi
 done
 
-grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
-grub-mkconfig -o /boot/grub/grub.cfg
+grub-install --target=x86_64-efi --efi-directory=/efi --bootloader-id=GRUB
+grub-mkconfig -o /efi/grub/grub.cfg
 
 #---
 pacman -Sy base-devel curl wget git --noconfirm #basic module

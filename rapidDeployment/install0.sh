@@ -31,6 +31,7 @@ mkfs.fat -F 32 ${yourdisk}1
 mkswap ${yourdisk}2
 swapon ${yourdisk}2
 mkfs.ext4 ${yourdisk}3
+mkfs.ext4 ${yourdisk}4
 
 echo "Please Configure Mirrorlist"
 
@@ -44,11 +45,12 @@ while true; do
 done
 
 mount ${yourdisk}3 /mnt
-mount --mkdir ${yourdisk}1 /mnt/boot
+mount --mkdir ${yourdisk}1 /mnt/efi
+mount --mkdir ${yourdisk}4 /mnt/home
 
 pacstrap -K /mnt base linux linux-firmware
 
-genfstab -U /mnt >>/mnt/etc/fstab
+genfstab -U /mnt >> /mnt/etc/fstab
 
 cp /root/WORKFLOW /mnt/opt/
 
