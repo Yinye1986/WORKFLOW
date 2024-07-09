@@ -1,0 +1,11 @@
+19:00:24 INF inbound create success inbound=mixed addr=127.0.0.1:7890 network=tcp
+19:00:24 INF inbound create success inbound=mixed addr=127.0.0.1:7890 network=udp
+19:00:24 INF [API] listening addr=127.0.0.1:34355
+19:00:29 INF [Config] initial compatible provider name=故障转移
+19:00:29 INF [Config] initial compatible provider name=自动选择
+19:00:29 INF [Config] initial compatible provider name=一元机场
+19:00:29 INF [Config] initial compatible provider name=故障转移
+19:00:29 INF [Config] initial compatible provider name=自动选择
+19:00:29 INF [Config] initial compatible provider name=一元机场
+19:00:59 INF [TCP] connected lAddr=127.0.0.1:37592 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+19:00:59 INF [TCP] connected lAddr=127.0.0.1:37604 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]

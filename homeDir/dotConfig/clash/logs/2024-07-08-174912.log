@@ -1,0 +1,10 @@
+17:49:12 INF [API] listening addr=127.0.0.1:35597
+17:49:12 INF [Config] initial compatible provider name=自动选择
+17:49:12 INF [Config] initial compatible provider name=一元机场
+17:49:12 INF [Config] initial compatible provider name=故障转移
+17:49:13 WRN [CacheFile] can't open cache file error=timeout
+17:49:13 WRN [Inbound] create listener error type=mixed addr=127.0.0.1:7890 network=tcp error=listen tcp 127.0.0.1:7890: bind: address already in use
+17:49:13 WRN [Inbound] create listener error type=mixed addr=127.0.0.1:7890 network=udp error=listen udp 127.0.0.1:7890: bind: address already in use
+17:53:32 INF [Config] initial compatible provider name=故障转移
+17:53:32 INF [Config] initial compatible provider name=自动选择
+17:53:32 INF [Config] initial compatible provider name=一元机场

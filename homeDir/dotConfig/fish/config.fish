@@ -3,13 +3,16 @@ if status is-interactive
 end
 
 # My alias
-alias sudo="sudo "
 alias :q="exit"
 
 alias ll="ls -l"
 alias la="ls -la"
 alias lld="lsblk"
+alias llu="lsusb"
 
-alias vim="nvim"
 alias t="tmux"
 alias fm="yazi"
+
+
+alias pmi="sudo pacman -S"
+alias pmu="sudo pacman -S"

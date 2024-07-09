@@ -1,0 +1,996 @@
+15:14:36 INF [Config] initial compatible provider name=一元机场
+15:14:36 INF [Config] initial compatible provider name=故障转移
+15:14:36 INF [Config] initial compatible provider name=自动选择
+15:14:36 INF [API] listening addr=127.0.0.1:35099
+15:14:36 INF inbound create success inbound=mixed addr=:7890 network=tcp
+15:14:36 INF inbound create success inbound=mixed addr=:7890 network=udp
+15:14:42 INF [TCP] connected lAddr=127.0.0.1:40272 rAddr=www.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+15:14:42 INF [TCP] connected lAddr=127.0.0.1:40278 rAddr=ocsp.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=一元机场[美国 01 | 专线]
+15:14:43 INF [TCP] connected lAddr=127.0.0.1:40340 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:14:43 INF [TCP] connected lAddr=127.0.0.1:40294 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:14:43 INF [TCP] connected lAddr=127.0.0.1:40326 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:14:43 INF [TCP] connected lAddr=127.0.0.1:40322 rAddr=s1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:14:43 INF [TCP] connected lAddr=127.0.0.1:40352 rAddr=ocsp.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=一元机场[美国 01 | 专线]
+15:14:43 INF [TCP] connected lAddr=127.0.0.1:40364 rAddr=ocsp.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=一元机场[美国 01 | 专线]
+15:14:43 INF [TCP] connected lAddr=127.0.0.1:40366 rAddr=ocsp.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=一元机场[美国 01 | 专线]
+15:14:43 INF [TCP] connected lAddr=127.0.0.1:40370 rAddr=ocsp.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=一元机场[美国 01 | 专线]
+15:14:44 INF [TCP] connected lAddr=127.0.0.1:40384 rAddr=upos-sz-mirror08c.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+15:14:44 INF [TCP] connected lAddr=127.0.0.1:40388 rAddr=upos-sz-mirrorcos.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+15:14:44 INF [TCP] connected lAddr=127.0.0.1:40402 rAddr=api.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+15:14:44 INF [TCP] connected lAddr=127.0.0.1:40420 rAddr=ocsp.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=一元机场[美国 01 | 专线]
+15:14:44 INF [TCP] connected lAddr=127.0.0.1:40404 rAddr=data.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+15:14:44 INF [TCP] connected lAddr=127.0.0.1:40412 rAddr=api.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+15:14:44 INF [TCP] connected lAddr=127.0.0.1:40428 rAddr=ocsp.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=一元机场[美国 01 | 专线]
+15:14:44 INF [TCP] connected lAddr=127.0.0.1:40440 rAddr=api.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+15:14:44 INF [TCP] connected lAddr=127.0.0.1:40442 rAddr=i1.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:14:45 INF [TCP] connected lAddr=127.0.0.1:43522 rAddr=api.live.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+15:14:45 INF [TCP] connected lAddr=127.0.0.1:43532 rAddr=ocsp.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=一元机场[美国 01 | 专线]
+15:14:45 INF [TCP] connected lAddr=127.0.0.1:43596 rAddr=api.live.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+15:14:45 INF [TCP] connected lAddr=127.0.0.1:43638 rAddr=i2.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:14:45 INF [TCP] connected lAddr=127.0.0.1:43562 rAddr=i0.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:14:45 INF [TCP] connected lAddr=127.0.0.1:43614 rAddr=i0.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:14:45 INF [TCP] connected lAddr=127.0.0.1:43658 rAddr=cm.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+15:14:45 INF [TCP] connected lAddr=127.0.0.1:43660 rAddr=cm.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+15:14:45 INF [TCP] connected lAddr=127.0.0.1:43612 rAddr=i0.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:14:45 INF [TCP] connected lAddr=127.0.0.1:43554 rAddr=i0.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:14:45 INF [TCP] connected lAddr=127.0.0.1:43630 rAddr=i0.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:14:45 INF [TCP] connected lAddr=127.0.0.1:40310 rAddr=i0.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:14:45 INF [TCP] connected lAddr=127.0.0.1:43540 rAddr=i0.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:14:45 INF [TCP] connected lAddr=127.0.0.1:43664 rAddr=ocsp.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=一元机场[美国 01 | 专线]
+15:14:46 INF [TCP] connected lAddr=127.0.0.1:43646 rAddr=cm.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+15:14:46 INF [TCP] connected lAddr=127.0.0.1:43670 rAddr=cm.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+15:14:46 INF [TCP] connected lAddr=127.0.0.1:43686 rAddr=bvc.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+15:14:46 INF [TCP] connected lAddr=127.0.0.1:43694 rAddr=passport.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+15:14:46 INF [TCP] connected lAddr=127.0.0.1:43698 rAddr=hw-v2-web-player-tracker.biliapi.net:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:14:47 INF [TCP] connected lAddr=127.0.0.1:43706 rAddr=broadcast.chat.bilibili.com:7826 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+15:14:47 INF [TCP] connected lAddr=127.0.0.1:43728 rAddr=ocsp.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=一元机场[美国 01 | 专线]
+15:14:47 INF [TCP] connected lAddr=127.0.0.1:43734 rAddr=ocsp.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=一元机场[美国 01 | 专线]
+15:14:47 INF [TCP] connected lAddr=127.0.0.1:43570 rAddr=i0.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:14:47 INF [TCP] connected lAddr=127.0.0.1:43716 rAddr=api.vc.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+15:14:47 INF [TCP] connected lAddr=127.0.0.1:43572 rAddr=i0.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:14:47 INF [TCP] connected lAddr=127.0.0.1:43584 rAddr=i0.hdslb.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:14:47 INF [TCP] connected lAddr=127.0.0.1:43738 rAddr=ocsp.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=一元机场[美国 01 | 专线]
+15:14:47 INF [TCP] connected lAddr=127.0.0.1:43750 rAddr=broadcast.chat.bilibili.com:7826 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+15:14:47 INF [TCP] connected lAddr=127.0.0.1:43752 rAddr=passport.biligame.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:14:47 INF [TCP] connected lAddr=127.0.0.1:43784 rAddr=passport.bilicomics.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:14:47 INF [TCP] connected lAddr=127.0.0.1:43762 rAddr=passport.bilibili.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+15:14:47 INF [TCP] connected lAddr=127.0.0.1:43768 rAddr=passport.bilicomic.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:14:47 INF [TCP] connected lAddr=127.0.0.1:43792 rAddr=ocsp.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=一元机场[美国 01 | 专线]
+15:14:47 INF [TCP] connected lAddr=127.0.0.1:43808 rAddr=ocsp.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=一元机场[美国 01 | 专线]
+15:14:47 INF [TCP] connected lAddr=127.0.0.1:43802 rAddr=ocsp.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=一元机场[美国 01 | 专线]
+15:14:47 INF [TCP] connected lAddr=127.0.0.1:43814 rAddr=ocsp.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=一元机场[美国 01 | 专线]
+15:14:50 INF [TCP] connected lAddr=127.0.0.1:43832 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:14:50 INF [TCP] connected lAddr=127.0.0.1:43840 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:14:50 INF [TCP] connected lAddr=127.0.0.1:43850 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:15:25 INF [TCP] connected lAddr=127.0.0.1:42604 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:15:26 INF [TCP] connected lAddr=127.0.0.1:42620 rAddr=r10.o.lencr.org:80 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:15:27 INF [TCP] connected lAddr=127.0.0.1:42626 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:15:33 INF [TCP] connected lAddr=127.0.0.1:42640 rAddr=upos-sz-mirrorcos.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+15:15:48 INF [TCP] connected lAddr=127.0.0.1:36840 rAddr=upos-sz-mirrorcos.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+15:15:49 INF [TCP] connected lAddr=127.0.0.1:36848 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:15:51 INF [TCP] connected lAddr=127.0.0.1:36868 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:15:51 INF [TCP] connected lAddr=127.0.0.1:36862 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:16:03 INF [TCP] connected lAddr=127.0.0.1:41018 rAddr=upos-sz-mirrorcos.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+15:16:11 INF [TCP] connected lAddr=127.0.0.1:42578 rAddr=normandy.cdn.mozilla.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:16:14 INF [TCP] connected lAddr=127.0.0.1:60836 rAddr=r3.o.lencr.org:80 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:16:15 INF [TCP] connected lAddr=127.0.0.1:60844 rAddr=classify-client.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:16:15 INF [TCP] connected lAddr=127.0.0.1:60858 rAddr=r3.o.lencr.org:80 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:16:16 INF [TCP] connected lAddr=127.0.0.1:60872 rAddr=content-signature-2.cdn.mozilla.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:16:17 INF [TCP] connected lAddr=127.0.0.1:60884 rAddr=upos-sz-mirrorcos.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+15:16:30 INF [TCP] connected lAddr=127.0.0.1:59278 rAddr=upos-sz-mirrorcos.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+15:16:46 INF [TCP] connected lAddr=127.0.0.1:37538 rAddr=upos-sz-mirrorcos.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+15:17:31 INF [TCP] connected lAddr=127.0.0.1:39396 rAddr=upos-sz-mirrorcos.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+15:18:07 INF [TCP] connected lAddr=127.0.0.1:60478 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:18:08 INF [TCP] connected lAddr=127.0.0.1:60484 rAddr=firefox.settings.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:18:10 INF [TCP] connected lAddr=127.0.0.1:60494 rAddr=content-signature-2.cdn.mozilla.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:18:11 INF [TCP] connected lAddr=127.0.0.1:60510 rAddr=r3.o.lencr.org:80 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:19:04 INF [TCP] connected lAddr=127.0.0.1:36918 rAddr=upos-sz-mirrorcos.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+15:19:30 INF [TCP] connected lAddr=127.0.0.1:39124 rAddr=upos-sz-mirrorcos.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+15:20:14 INF [TCP] connected lAddr=127.0.0.1:50964 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:20:14 INF [TCP] connected lAddr=127.0.0.1:53148 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:20:25 INF [TCP] connected lAddr=127.0.0.1:45612 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:20:59 INF [TCP] connected lAddr=127.0.0.1:41374 rAddr=upos-sz-mirrorcos.bilivideo.com:443 mode=rule rule=DomainSuffix(bilivideo.com) proxy=DIRECT
+15:22:17 INF [TCP] connected lAddr=127.0.0.1:50746 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:22:59 INF [TCP] connected lAddr=127.0.0.1:35492 rAddr=cdn.jsdelivr.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:22:59 INF [TCP] connected lAddr=127.0.0.1:35472 rAddr=cdn.jsdelivr.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:22:59 INF [TCP] connected lAddr=127.0.0.1:35464 rAddr=blog.syize.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+15:22:59 INF [TCP] connected lAddr=127.0.0.1:35456 rAddr=blog.syize.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+15:22:59 INF [TCP] connected lAddr=127.0.0.1:35488 rAddr=blog.syize.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+15:22:59 INF [TCP] connected lAddr=127.0.0.1:35484 rAddr=blog.syize.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+15:22:59 INF [TCP] connected lAddr=127.0.0.1:35478 rAddr=blog.syize.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+15:23:23 INF [TCP] connected lAddr=127.0.0.1:38300 rAddr=sensors.ibreader.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:23:23 INF [TCP] connected lAddr=127.0.0.1:38318 rAddr=cdn2.jianshu.io:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:23:23 INF [TCP] connected lAddr=127.0.0.1:38308 rAddr=cdn2.jianshu.io:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:23:23 INF [TCP] connected lAddr=127.0.0.1:38332 rAddr=cdn2.jianshu.io:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:23:23 INF [TCP] connected lAddr=127.0.0.1:38342 rAddr=cdn2.jianshu.io:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:23:23 INF [TCP] connected lAddr=127.0.0.1:38302 rAddr=cdn2.jianshu.io:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:23:23 INF [TCP] connected lAddr=127.0.0.1:38294 rAddr=cdn2.jianshu.io:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:23:23 INF [TCP] connected lAddr=127.0.0.1:38330 rAddr=cdn2.jianshu.io:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:23:23 INF [TCP] connected lAddr=127.0.0.1:38392 rAddr=upload.jianshu.io:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:23:23 INF [TCP] connected lAddr=127.0.0.1:38362 rAddr=upload.jianshu.io:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:23:23 INF [TCP] connected lAddr=127.0.0.1:38422 rAddr=upload.jianshu.io:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:23:23 INF [TCP] connected lAddr=127.0.0.1:38282 rAddr=www.jianshu.com:443 mode=rule rule=DomainSuffix(jianshu.com) proxy=DIRECT
+15:23:23 INF [TCP] connected lAddr=127.0.0.1:38348 rAddr=upload.jianshu.io:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:23:23 INF [TCP] connected lAddr=127.0.0.1:38400 rAddr=www.jianshu.com:443 mode=rule rule=DomainSuffix(jianshu.com) proxy=DIRECT
+15:23:23 INF [TCP] connected lAddr=127.0.0.1:38374 rAddr=upload.jianshu.io:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:23:23 INF [TCP] connected lAddr=127.0.0.1:38370 rAddr=upload.jianshu.io:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:23:23 INF [TCP] connected lAddr=127.0.0.1:38440 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=一元机场[美国 01 | 专线]
+15:23:23 INF [TCP] connected lAddr=127.0.0.1:38448 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=一元机场[美国 01 | 专线]
+15:23:23 INF [TCP] connected lAddr=127.0.0.1:38464 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=一元机场[美国 01 | 专线]
+15:23:23 INF [TCP] connected lAddr=127.0.0.1:38478 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=一元机场[美国 01 | 专线]
+15:23:23 INF [TCP] connected lAddr=127.0.0.1:38488 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=一元机场[美国 01 | 专线]
+15:23:23 INF [TCP] connected lAddr=127.0.0.1:38416 rAddr=www.jianshu.com:443 mode=rule rule=DomainSuffix(jianshu.com) proxy=DIRECT
+15:23:23 INF [TCP] connected lAddr=127.0.0.1:38504 rAddr=www.jianshu.com:443 mode=rule rule=DomainSuffix(jianshu.com) proxy=DIRECT
+15:23:24 INF [TCP] connected lAddr=127.0.0.1:38506 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=一元机场[美国 01 | 专线]
+15:23:24 INF [TCP] connected lAddr=127.0.0.1:38520 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=一元机场[美国 01 | 专线]
+15:23:24 INF [TCP] connected lAddr=127.0.0.1:38530 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=一元机场[美国 01 | 专线]
+15:23:24 INF [TCP] connected lAddr=127.0.0.1:38554 rAddr=www.google-analytics.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:23:24 INF [TCP] connected lAddr=127.0.0.1:38540 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+15:23:24 INF [TCP] connected lAddr=127.0.0.1:60992 rAddr=ocsp.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=一元机场[美国 01 | 专线]
+15:23:24 INF [TCP] connected lAddr=127.0.0.1:60986 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:23:25 INF [TCP] connected lAddr=127.0.0.1:32792 rAddr=www.googletagmanager.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:23:25 INF [TCP] connected lAddr=127.0.0.1:32774 rAddr=upload-images.jianshu.io:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:23:25 INF [TCP] connected lAddr=127.0.0.1:32790 rAddr=tr.jianshu.com:443 mode=rule rule=DomainSuffix(jianshu.com) proxy=DIRECT
+15:23:43 INF [TCP] connected lAddr=127.0.0.1:53298 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:23:43 INF [TCP] connected lAddr=127.0.0.1:53330 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:23:43 INF [TCP] connected lAddr=127.0.0.1:53334 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:23:43 INF [TCP] connected lAddr=127.0.0.1:53346 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:23:44 INF [TCP] connected lAddr=127.0.0.1:53350 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:23:44 INF [TCP] connected lAddr=127.0.0.1:53360 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:23:44 INF [TCP] connected lAddr=127.0.0.1:53374 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:23:44 INF [TCP] connected lAddr=127.0.0.1:53380 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:23:44 INF [TCP] connected lAddr=127.0.0.1:53392 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:23:44 INF [TCP] connected lAddr=127.0.0.1:53408 rAddr=fonts.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=一元机场[美国 01 | 专线]
+15:23:44 INF [TCP] connected lAddr=127.0.0.1:53416 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:23:44 INF [TCP] connected lAddr=127.0.0.1:42864 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:23:44 INF [TCP] connected lAddr=127.0.0.1:42866 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:23:44 INF [TCP] connected lAddr=127.0.0.1:42876 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:23:44 INF [TCP] connected lAddr=127.0.0.1:42868 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:23:44 INF [TCP] connected lAddr=127.0.0.1:42884 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:23:44 INF [TCP] connected lAddr=127.0.0.1:42882 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:23:45 INF [TCP] connected lAddr=127.0.0.1:42900 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:23:45 INF [TCP] connected lAddr=127.0.0.1:42910 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:23:45 INF [TCP] connected lAddr=127.0.0.1:42916 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:23:45 INF [TCP] connected lAddr=127.0.0.1:42920 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:23:45 INF [TCP] connected lAddr=127.0.0.1:42854 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:23:47 INF [TCP] connected lAddr=127.0.0.1:42926 rAddr=ogs.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:23:48 INF [TCP] connected lAddr=127.0.0.1:42938 rAddr=www.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=一元机场[美国 01 | 专线]
+15:23:48 INF [TCP] connected lAddr=127.0.0.1:42948 rAddr=ogs.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:23:48 INF [TCP] connected lAddr=127.0.0.1:42950 rAddr=ogs.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:23:48 INF [TCP] connected lAddr=127.0.0.1:42964 rAddr=ogs.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:23:48 INF [TCP] connected lAddr=127.0.0.1:42974 rAddr=ssl.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=一元机场[美国 01 | 专线]
+15:23:48 INF [TCP] connected lAddr=127.0.0.1:42978 rAddr=lh3.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:23:48 INF [TCP] connected lAddr=127.0.0.1:42990 rAddr=fonts.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=一元机场[美国 01 | 专线]
+15:23:49 INF [TCP] connected lAddr=127.0.0.1:42998 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:24:04 INF [TCP] connected lAddr=127.0.0.1:35582 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:24:05 INF [TCP] connected lAddr=127.0.0.1:36176 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:24:12 INF [TCP] connected lAddr=127.0.0.1:36184 rAddr=id.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:24:13 INF [TCP] connected lAddr=127.0.0.1:36202 rAddr=i.ytimg.com:443 mode=rule rule=DomainSuffix(ytimg.com) proxy=一元机场[美国 01 | 专线]
+15:24:13 INF [TCP] connected lAddr=127.0.0.1:36214 rAddr=i.ytimg.com:443 mode=rule rule=DomainSuffix(ytimg.com) proxy=一元机场[美国 01 | 专线]
+15:24:13 INF [TCP] connected lAddr=127.0.0.1:36220 rAddr=i.ytimg.com:443 mode=rule rule=DomainSuffix(ytimg.com) proxy=一元机场[美国 01 | 专线]
+15:24:14 INF [TCP] connected lAddr=127.0.0.1:36232 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:24:14 INF [TCP] connected lAddr=127.0.0.1:36244 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:24:14 INF [TCP] connected lAddr=127.0.0.1:36228 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:24:15 INF [TCP] connected lAddr=127.0.0.1:34166 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:24:15 INF [TCP] connected lAddr=127.0.0.1:34170 rAddr=www.youtube.com:443 mode=rule rule=DomainKeyword(youtube) proxy=一元机场[美国 01 | 专线]
+15:24:17 INF [TCP] connected lAddr=127.0.0.1:34186 rAddr=googleads.g.doubleclick.net:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:24:17 INF [TCP] connected lAddr=127.0.0.1:34188 rAddr=static.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=REJECT
+15:24:17 INF [TCP] connected lAddr=127.0.0.1:34210 rAddr=jnn-pa.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:24:17 INF [TCP] connected lAddr=127.0.0.1:34228 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:24:17 INF [TCP] connected lAddr=127.0.0.1:34240 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:24:22 INF [TCP] connected lAddr=127.0.0.1:34242 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=一元机场[美国 01 | 专线]
+15:24:22 INF [TCP] connected lAddr=127.0.0.1:34280 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=一元机场[美国 01 | 专线]
+15:24:22 INF [TCP] connected lAddr=127.0.0.1:34256 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=一元机场[美国 01 | 专线]
+15:24:22 INF [TCP] connected lAddr=127.0.0.1:34268 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=一元机场[美国 01 | 专线]
+15:24:22 INF [TCP] connected lAddr=127.0.0.1:34282 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=一元机场[美国 01 | 专线]
+15:24:24 INF [TCP] connected lAddr=127.0.0.1:34286 rAddr=github.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:24:24 INF [TCP] connected lAddr=127.0.0.1:34292 rAddr=ocsp.sectigo.com:80 mode=rule rule=Domain(ocsp.sectigo.com) proxy=一元机场[美国 01 | 专线]
+15:24:26 INF [TCP] connected lAddr=127.0.0.1:38064 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:24:26 INF [TCP] connected lAddr=127.0.0.1:38068 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:24:26 INF [TCP] connected lAddr=127.0.0.1:38070 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:24:26 INF [TCP] connected lAddr=127.0.0.1:38080 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:24:26 INF [TCP] connected lAddr=127.0.0.1:38092 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:24:26 INF [TCP] connected lAddr=127.0.0.1:38104 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:24:26 INF [TCP] connected lAddr=127.0.0.1:38110 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:24:26 INF [TCP] connected lAddr=127.0.0.1:38112 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:24:26 INF [TCP] connected lAddr=127.0.0.1:38154 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:24:26 INF [TCP] connected lAddr=127.0.0.1:38144 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:24:26 INF [TCP] connected lAddr=127.0.0.1:38134 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:24:26 INF [TCP] connected lAddr=127.0.0.1:38124 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:24:26 INF [TCP] connected lAddr=127.0.0.1:38118 rAddr=avatars.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:24:26 INF [TCP] connected lAddr=127.0.0.1:38166 rAddr=avatars.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:24:27 INF [TCP] connected lAddr=127.0.0.1:38176 rAddr=alive.github.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:24:27 INF [TCP] connected lAddr=127.0.0.1:38184 rAddr=collector.github.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:24:27 INF [TCP] connected lAddr=127.0.0.1:38186 rAddr=ocsp.sectigo.com:80 mode=rule rule=Domain(ocsp.sectigo.com) proxy=一元机场[美国 01 | 专线]
+15:24:28 INF [TCP] connected lAddr=127.0.0.1:38190 rAddr=api.github.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:24:28 INF [TCP] connected lAddr=127.0.0.1:38202 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=一元机场[美国 01 | 专线]
+15:24:28 INF [TCP] connected lAddr=127.0.0.1:38214 rAddr=translate.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:24:28 INF [TCP] connected lAddr=127.0.0.1:38228 rAddr=translate.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:24:32 INF [TCP] connected lAddr=127.0.0.1:38242 rAddr=www.embbnux.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:24:35 INF [TCP] connected lAddr=127.0.0.1:48254 rAddr=zz.bdstatic.com:443 mode=rule rule=DomainSuffix(bdstatic.com) proxy=DIRECT
+15:24:35 INF [TCP] connected lAddr=127.0.0.1:48242 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+15:24:35 INF [TCP] connected lAddr=127.0.0.1:48270 rAddr=sp0.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+15:26:08 INF [TCP] connected lAddr=127.0.0.1:37542 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:28:33 INF [TCP] connected lAddr=127.0.0.1:53630 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:28:34 INF [TCP] connected lAddr=127.0.0.1:53632 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:28:45 INF [TCP] connected lAddr=127.0.0.1:45812 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:30:33 INF [TCP] connected lAddr=127.0.0.1:39188 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:32:33 INF [TCP] connected lAddr=127.0.0.1:46288 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:32:34 INF [TCP] connected lAddr=127.0.0.1:46294 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:32:45 INF [TCP] connected lAddr=127.0.0.1:42582 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:33:25 INF [TCP] connected lAddr=127.0.0.1:42686 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+15:34:33 INF [TCP] connected lAddr=127.0.0.1:43904 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:35:11 INF [TCP] connected lAddr=127.0.0.1:33208 rAddr=safebrowsing.googleapis.com:443 mode=rule rule=Domain(safebrowsing.googleapis.com) proxy=DIRECT
+15:35:11 INF [TCP] connected lAddr=127.0.0.1:33222 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:36:33 INF [TCP] connected lAddr=127.0.0.1:51036 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:36:34 INF [TCP] connected lAddr=127.0.0.1:51038 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:36:44 INF [TCP] connected lAddr=127.0.0.1:41168 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:17 INF [TCP] connected lAddr=127.0.0.1:52888 rAddr=shavar.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:18 INF [TCP] connected lAddr=127.0.0.1:52890 rAddr=r10.o.lencr.org:80 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:31 INF [TCP] connected lAddr=127.0.0.1:56936 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:37:32 INF [TCP] connected lAddr=127.0.0.1:56956 rAddr=id.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:37:33 INF [TCP] connected lAddr=127.0.0.1:56984 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:37:33 INF [TCP] connected lAddr=127.0.0.1:56994 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:37:33 INF [TCP] connected lAddr=127.0.0.1:57008 rAddr=encrypted-tbn1.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=一元机场[美国 01 | 专线]
+15:37:33 INF [TCP] connected lAddr=127.0.0.1:57022 rAddr=encrypted-tbn2.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=一元机场[美国 01 | 专线]
+15:37:33 INF [TCP] connected lAddr=127.0.0.1:57034 rAddr=encrypted-tbn3.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=一元机场[美国 01 | 专线]
+15:37:33 INF [TCP] connected lAddr=127.0.0.1:57036 rAddr=encrypted-tbn3.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=一元机场[美国 01 | 专线]
+15:37:34 INF [TCP] connected lAddr=127.0.0.1:57050 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:37:36 INF [TCP] connected lAddr=127.0.0.1:51122 rAddr=ogs.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:37:37 INF [TCP] connected lAddr=127.0.0.1:51178 rAddr=ogs.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:37:39 INF [TCP] connected lAddr=127.0.0.1:51186 rAddr=www.st.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:37:40 INF [TCP] connected lAddr=127.0.0.1:51190 rAddr=cdn.decibelinsight.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:40 INF [TCP] connected lAddr=127.0.0.1:51192 rAddr=assets.st.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:40 INF [TCP] connected lAddr=127.0.0.1:51196 rAddr=assets.st.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:40 INF [TCP] connected lAddr=127.0.0.1:51194 rAddr=s2.go-mpulse.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:40 INF [TCP] connected lAddr=127.0.0.1:51202 rAddr=cdn.cookielaw.org:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:42 INF [TCP] connected lAddr=127.0.0.1:51208 rAddr=cdn.cookielaw.org:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:42 INF [TCP] connected lAddr=127.0.0.1:51222 rAddr=munchkin.marketo.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:43 INF [TCP] connected lAddr=127.0.0.1:51234 rAddr=c.go-mpulse.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:43 INF [TCP] connected lAddr=127.0.0.1:51246 rAddr=geolocation.onetrust.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:44 INF [TCP] connected lAddr=127.0.0.1:51252 rAddr=collection.decibelinsight.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:44 INF [TCP] connected lAddr=127.0.0.1:51268 rAddr=856-pvp-715.mktoresp.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:44 INF [TCP] connected lAddr=127.0.0.1:51276 rAddr=trial-eum-clientnsv4-s.akamaihd.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:44 INF [TCP] connected lAddr=127.0.0.1:51284 rAddr=trial-eum-clienttons-s.akamaihd.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:44 INF [TCP] connected lAddr=127.0.0.1:45692 rAddr=s7mbrstream-g1.scene7.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:45 INF [TCP] connected lAddr=127.0.0.1:45706 rAddr=zwzlmqqxzm2uqzudvyxa-pqtu2x-f5618bfda-clientnsv4-s.akamaihd.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:45 INF [TCP] connected lAddr=127.0.0.1:45748 rAddr=collection.decibelinsight.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:45 INF [TCP] connected lAddr=127.0.0.1:45728 rAddr=dpm.demdex.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:45 INF [TCP] connected lAddr=127.0.0.1:45734 rAddr=api.company-target.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:46 INF [TCP] connected lAddr=127.0.0.1:45752 rAddr=g.3gl.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:46 INF [TCP] connected lAddr=127.0.0.1:45778 rAddr=api.company-target.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:46 INF [TCP] connected lAddr=127.0.0.1:45782 rAddr=www.googletagmanager.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:37:46 INF [TCP] connected lAddr=127.0.0.1:45766 rAddr=s.company-target.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:46 INF [TCP] connected lAddr=127.0.0.1:45790 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=一元机场[美国 01 | 专线]
+15:37:46 INF [TCP] connected lAddr=127.0.0.1:45806 rAddr=ocsp.int-r1.certainly.com:80 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:46 INF [TCP] connected lAddr=127.0.0.1:45712 rAddr=205-178-182-66_s-23-201-56-99_ts-1719905838-clienttons-s.akamaihd.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:46 INF [TCP] connected lAddr=127.0.0.1:45814 rAddr=r11.o.lencr.org:80 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:46 INF [TCP] connected lAddr=127.0.0.1:45828 rAddr=resources.digital-cloud.medallia.eu:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:46 INF [TCP] connected lAddr=127.0.0.1:45838 rAddr=tag-logger.demandbase.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:47 INF [TCP] connected lAddr=127.0.0.1:45850 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=一元机场[美国 01 | 专线]
+15:37:47 INF [TCP] connected lAddr=127.0.0.1:45876 rAddr=partners.tremorhub.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:47 INF [TCP] connected lAddr=127.0.0.1:45892 rAddr=pixel.rubiconproject.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:47 INF [TCP] connected lAddr=127.0.0.1:45864 rAddr=dsum-sec.casalemedia.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:48 INF [TCP] connected lAddr=127.0.0.1:45900 rAddr=swa.st.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:48 INF [TCP] connected lAddr=127.0.0.1:45912 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=一元机场[美国 01 | 专线]
+15:37:48 INF [TCP] connected lAddr=127.0.0.1:45922 rAddr=ocsp.r2m03.amazontrust.com:80 mode=rule rule=DomainKeyword(amazon) proxy=一元机场[美国 01 | 专线]
+15:37:48 INF [TCP] connected lAddr=127.0.0.1:45954 rAddr=googleads.g.doubleclick.net:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:37:48 INF [TCP] connected lAddr=127.0.0.1:45938 rAddr=tag.demandbase.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:48 INF [TCP] connected lAddr=127.0.0.1:45970 rAddr=udc-neb.kampyle.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:48 INF [TCP] connected lAddr=127.0.0.1:45964 rAddr=udc-neb.kampyle.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:48 INF [TCP] connected lAddr=127.0.0.1:46000 rAddr=stats.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=REJECT
+15:37:48 INF [TCP] connected lAddr=127.0.0.1:45986 rAddr=stmicroelectronics.tt.omtrdc.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:48 INF [TCP] connected lAddr=127.0.0.1:46014 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=一元机场[美国 01 | 专线]
+15:37:48 INF [TCP] connected lAddr=127.0.0.1:46024 rAddr=ocsps.ssl.com:80 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:48 INF [TCP] connected lAddr=127.0.0.1:46022 rAddr=ocsps.ssl.com:80 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:48 INF [TCP] connected lAddr=127.0.0.1:46032 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=一元机场[美国 01 | 专线]
+15:37:49 INF [TCP] connected lAddr=127.0.0.1:46040 rAddr=17de4c0e.akstat.io:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:49 INF [TCP] connected lAddr=127.0.0.1:46048 rAddr=cm.everesttech.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:49 INF [TCP] connected lAddr=127.0.0.1:46060 rAddr=stmicroelectronics.demdex.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:37:51 INF [TCP] connected lAddr=127.0.0.1:46068 rAddr=ocsp.r2m02.amazontrust.com:80 mode=rule rule=DomainKeyword(amazon) proxy=一元机场[美国 01 | 专线]
+15:37:58 INF [TCP] connected lAddr=127.0.0.1:46388 rAddr=google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:37:58 INF [TCP] connected lAddr=127.0.0.1:46390 rAddr=google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:37:58 INF [TCP] connected lAddr=127.0.0.1:46396 rAddr=google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:37:58 INF [TCP] connected lAddr=127.0.0.1:46402 rAddr=google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:37:58 INF [TCP] connected lAddr=127.0.0.1:46404 rAddr=google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:37:58 INF [TCP] connected lAddr=127.0.0.1:46414 rAddr=google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:37:59 INF [TCP] connected lAddr=127.0.0.1:46430 rAddr=privacyportal-de.onetrust.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:38:00 INF [TCP] connected lAddr=127.0.0.1:46444 rAddr=collection.decibelinsight.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:38:01 INF [TCP] connected lAddr=127.0.0.1:46446 rAddr=pixel.rubiconproject.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:38:07 INF [TCP] connected lAddr=127.0.0.1:38746 rAddr=content.st.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:38:09 INF [TCP] connected lAddr=127.0.0.1:38760 rAddr=ksmk.st.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:38:12 INF [TCP] connected lAddr=127.0.0.1:38770 rAddr=856-pvp-715.mktoresp.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:38:13 INF [TCP] connected lAddr=127.0.0.1:38776 rAddr=collection.decibelinsight.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:38:14 INF [TCP] connected lAddr=127.0.0.1:38792 rAddr=swa.sc.adobedc.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+15:38:14 INF [TCP] connected lAddr=127.0.0.1:38806 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=一元机场[美国 01 | 专线]
+15:38:31 INF [TCP] connected lAddr=127.0.0.1:39694 rAddr=www.st.com.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+15:38:33 INF [TCP] connected lAddr=127.0.0.1:39708 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:38:37 INF [TCP] connected lAddr=127.0.0.1:52216 rAddr=swa.st.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:38:37 INF [TCP] connected lAddr=127.0.0.1:52228 rAddr=pixel.rubiconproject.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:38:38 INF [TCP] connected lAddr=127.0.0.1:52230 rAddr=17de4c15.akstat.io:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:39:28 INF [TCP] connected lAddr=127.0.0.1:38780 rAddr=www.jianshu.com:443 mode=rule rule=DomainSuffix(jianshu.com) proxy=DIRECT
+15:40:29 INF [TCP] connected lAddr=127.0.0.1:57302 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:40:30 INF [TCP] connected lAddr=127.0.0.1:57310 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:40:40 INF [TCP] connected lAddr=127.0.0.1:55200 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:40:41 INF [TCP] connected lAddr=127.0.0.1:55212 rAddr=firefox.settings.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:42:33 INF [TCP] connected lAddr=127.0.0.1:36878 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:43:34 INF [TCP] connected lAddr=127.0.0.1:52332 rAddr=safebrowsing.googleapis.com:443 mode=rule rule=Domain(safebrowsing.googleapis.com) proxy=DIRECT
+15:43:34 INF [TCP] connected lAddr=127.0.0.1:52334 rAddr=www.st.com.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+15:44:08 INF [TCP] connected lAddr=127.0.0.1:56864 rAddr=c.go-mpulse.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:44:28 INF [TCP] connected lAddr=127.0.0.1:34474 rAddr=alive.github.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:44:33 INF [TCP] connected lAddr=127.0.0.1:34488 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:44:34 INF [TCP] connected lAddr=127.0.0.1:34492 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:44:44 INF [TCP] connected lAddr=127.0.0.1:37576 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:46:34 INF [TCP] connected lAddr=127.0.0.1:55356 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:46:36 INF [TCP] connected lAddr=127.0.0.1:55376 rAddr=cdn.jsdelivr.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:46:36 INF [TCP] connected lAddr=127.0.0.1:55370 rAddr=cdn.jsdelivr.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:46:37 INF [TCP] connected lAddr=127.0.0.1:55390 rAddr=api.github.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:46:42 INF [TCP] connected lAddr=127.0.0.1:55396 rAddr=www.jianshu.com:443 mode=rule rule=DomainSuffix(jianshu.com) proxy=DIRECT
+15:47:23 INF [TCP] connected lAddr=127.0.0.1:39026 rAddr=www.st.com.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+15:47:24 INF [TCP] connected lAddr=127.0.0.1:39030 rAddr=cdn.decibelinsight.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:47:24 INF [TCP] connected lAddr=127.0.0.1:39046 rAddr=assets.st.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:47:24 INF [TCP] connected lAddr=127.0.0.1:39060 rAddr=856-pvp-715.mktoresp.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:47:24 INF [TCP] connected lAddr=127.0.0.1:39070 rAddr=privacyportal-de.onetrust.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:47:24 INF [TCP] connected lAddr=127.0.0.1:39078 rAddr=cdn.cookielaw.org:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:47:24 INF [TCP] connected lAddr=127.0.0.1:49898 rAddr=17de4c15.akstat.io:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:47:25 INF [TCP] connected lAddr=127.0.0.1:49904 rAddr=geolocation.onetrust.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:47:25 INF [TCP] connected lAddr=127.0.0.1:49910 rAddr=c.go-mpulse.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:47:27 INF [TCP] connected lAddr=127.0.0.1:49962 rAddr=www.st.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:47:27 INF [TCP] connected lAddr=127.0.0.1:49978 rAddr=api.company-target.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:47:27 INF [TCP] connected lAddr=127.0.0.1:49994 rAddr=trial-eum-clientnsv4-s.akamaihd.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:47:27 INF [TCP] connected lAddr=127.0.0.1:50002 rAddr=trial-eum-clienttons-s.akamaihd.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:47:27 INF [TCP] connected lAddr=127.0.0.1:50024 rAddr=s.company-target.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:47:27 INF [TCP] connected lAddr=127.0.0.1:50028 rAddr=resources.digital-cloud.medallia.eu:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:47:27 INF [TCP] connected lAddr=127.0.0.1:50038 rAddr=s7mbrstream-g1.scene7.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:47:27 INF [TCP] connected lAddr=127.0.0.1:50056 rAddr=tag-logger.demandbase.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:47:28 INF [TCP] connected lAddr=127.0.0.1:50052 rAddr=stmicroelectronics.tt.omtrdc.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:47:28 INF [TCP] connected lAddr=127.0.0.1:50090 rAddr=pixel.rubiconproject.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:47:28 INF [TCP] connected lAddr=127.0.0.1:50080 rAddr=partners.tremorhub.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:47:28 INF [TCP] connected lAddr=127.0.0.1:50078 rAddr=dsum-sec.casalemedia.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:47:28 INF [TCP] connected lAddr=127.0.0.1:50070 rAddr=zwzlmqqxfugmuzudwb2q-pcu3k4-0adf1dceb-clientnsv4-s.akamaihd.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:47:28 INF [TCP] connected lAddr=127.0.0.1:50044 rAddr=205-178-182-66_s-23-206-229-138_ts-1719906421-clienttons-s.akamaihd.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:47:28 INF [TCP] connected lAddr=127.0.0.1:50096 rAddr=swa.sc.adobedc.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+15:47:29 INF [TCP] connected lAddr=127.0.0.1:50104 rAddr=udc-neb.kampyle.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:47:29 INF [TCP] connected lAddr=127.0.0.1:50118 rAddr=googleads.g.doubleclick.net:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:47:31 INF [TCP] connected lAddr=127.0.0.1:50134 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:47:35 INF [TCP] connected lAddr=127.0.0.1:57734 rAddr=google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:47:36 INF [TCP] connected lAddr=127.0.0.1:57750 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:47:37 INF [TCP] connected lAddr=127.0.0.1:57752 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:47:37 INF [TCP] connected lAddr=127.0.0.1:57768 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:47:37 INF [TCP] connected lAddr=127.0.0.1:57774 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:47:38 INF [TCP] connected lAddr=127.0.0.1:57790 rAddr=www.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=一元机场[美国 01 | 专线]
+15:47:39 INF [TCP] connected lAddr=127.0.0.1:57794 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:47:39 INF [TCP] connected lAddr=127.0.0.1:57828 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:47:40 INF [TCP] connected lAddr=127.0.0.1:57840 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:47:42 INF [TCP] connected lAddr=127.0.0.1:57846 rAddr=ogs.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:47:44 INF [TCP] connected lAddr=127.0.0.1:57856 rAddr=ogs.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:47:44 INF [TCP] connected lAddr=127.0.0.1:57814 rAddr=www.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=一元机场[美国 01 | 专线]
+15:47:44 INF [TCP] connected lAddr=127.0.0.1:57888 rAddr=fonts.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=一元机场[美国 01 | 专线]
+15:47:44 INF [TCP] connected lAddr=127.0.0.1:57896 rAddr=www.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=一元机场[美国 01 | 专线]
+15:47:44 INF [TCP] connected lAddr=127.0.0.1:57900 rAddr=www.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=一元机场[美国 01 | 专线]
+15:47:44 INF [TCP] connected lAddr=127.0.0.1:57908 rAddr=www.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=一元机场[美国 01 | 专线]
+15:47:45 INF [TCP] connected lAddr=127.0.0.1:51232 rAddr=www.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=一元机场[美国 01 | 专线]
+15:47:52 INF [TCP] connected lAddr=127.0.0.1:51244 rAddr=lh5.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:47:52 INF [TCP] connected lAddr=127.0.0.1:51248 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+15:48:04 INF [TCP] connected lAddr=127.0.0.1:51080 rAddr=fonts.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=一元机场[美国 01 | 专线]
+15:48:05 INF [TCP] connected lAddr=127.0.0.1:49512 rAddr=cdn.cookielaw.org:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:48:05 INF [TCP] connected lAddr=127.0.0.1:49504 rAddr=content.st.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:48:07 INF [TCP] connected lAddr=127.0.0.1:49564 rAddr=collection.decibelinsight.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:48:07 INF [TCP] connected lAddr=127.0.0.1:49570 rAddr=ksmk.st.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:48:07 INF [TCP] connected lAddr=127.0.0.1:49596 rAddr=collection.decibelinsight.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:48:08 INF [TCP] connected lAddr=127.0.0.1:49604 rAddr=stmicroelectronics.tt.omtrdc.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:48:08 INF [TCP] connected lAddr=127.0.0.1:49608 rAddr=pixel.rubiconproject.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:48:09 INF [TCP] connected lAddr=127.0.0.1:49636 rAddr=collection.decibelinsight.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:48:09 INF [TCP] connected lAddr=127.0.0.1:49624 rAddr=tag.demandbase.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:48:09 INF [TCP] connected lAddr=127.0.0.1:49640 rAddr=17de4c0e.akstat.io:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:48:09 INF [TCP] connected lAddr=127.0.0.1:49650 rAddr=swa.sc.adobedc.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+15:48:10 INF [TCP] connected lAddr=127.0.0.1:49664 rAddr=safebrowsing.googleapis.com:443 mode=rule rule=Domain(safebrowsing.googleapis.com) proxy=DIRECT
+15:48:18 INF [TCP] connected lAddr=127.0.0.1:43376 rAddr=856-pvp-715.mktoresp.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:48:21 INF [TCP] connected lAddr=127.0.0.1:43390 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:48:21 INF [TCP] connected lAddr=127.0.0.1:43398 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:48:31 INF [TCP] connected lAddr=127.0.0.1:47546 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:48:36 INF [TCP] connected lAddr=127.0.0.1:55632 rAddr=safebrowsing.googleapis.com:443 mode=rule rule=Domain(safebrowsing.googleapis.com) proxy=DIRECT
+15:48:38 INF [TCP] connected lAddr=127.0.0.1:55642 rAddr=pixel.rubiconproject.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:48:55 INF [TCP] connected lAddr=127.0.0.1:43130 rAddr=cdn.cookielaw.org:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:48:55 INF [TCP] connected lAddr=127.0.0.1:52900 rAddr=cdn.cookielaw.org:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:48:56 INF [TCP] connected lAddr=127.0.0.1:52944 rAddr=pixel.rubiconproject.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:48:57 INF [TCP] connected lAddr=127.0.0.1:52964 rAddr=swa.st.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:49:31 INF [TCP] connected lAddr=127.0.0.1:33204 rAddr=cdn.cookielaw.org:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:49:31 INF [TCP] connected lAddr=127.0.0.1:33222 rAddr=stmicroelectronics.tt.omtrdc.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:49:34 INF [TCP] connected lAddr=127.0.0.1:33268 rAddr=swa.sc.adobedc.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+15:49:34 INF [TCP] connected lAddr=127.0.0.1:33272 rAddr=pixel.rubiconproject.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:50:00 INF [TCP] connected lAddr=127.0.0.1:47208 rAddr=pixel.rubiconproject.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:50:00 INF [TCP] connected lAddr=127.0.0.1:47210 rAddr=swa.st.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:50:03 INF [TCP] connected lAddr=127.0.0.1:47220 rAddr=pixel.rubiconproject.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:50:19 INF [TCP] connected lAddr=127.0.0.1:46986 rAddr=safebrowsing.googleapis.com:443 mode=rule rule=Domain(safebrowsing.googleapis.com) proxy=DIRECT
+15:50:20 INF [TCP] connected lAddr=127.0.0.1:47020 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:50:20 INF [TCP] connected lAddr=127.0.0.1:47044 rAddr=safebrowsing.googleapis.com:443 mode=rule rule=Domain(safebrowsing.googleapis.com) proxy=DIRECT
+15:50:21 INF [TCP] connected lAddr=127.0.0.1:47052 rAddr=collection.decibelinsight.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:50:22 INF [TCP] connected lAddr=127.0.0.1:47094 rAddr=pixel.rubiconproject.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:50:51 INF [TCP] connected lAddr=127.0.0.1:46682 rAddr=github.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:50:53 INF [TCP] connected lAddr=127.0.0.1:46694 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:50:53 INF [TCP] connected lAddr=127.0.0.1:46720 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:50:53 INF [TCP] connected lAddr=127.0.0.1:46728 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:50:53 INF [TCP] connected lAddr=127.0.0.1:46744 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:50:53 INF [TCP] connected lAddr=127.0.0.1:46748 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:50:53 INF [TCP] connected lAddr=127.0.0.1:46704 rAddr=camo.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:50:53 INF [TCP] connected lAddr=127.0.0.1:46698 rAddr=avatars.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:50:53 INF [TCP] connected lAddr=127.0.0.1:46750 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:50:53 INF [TCP] connected lAddr=127.0.0.1:46756 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:50:53 INF [TCP] connected lAddr=127.0.0.1:46772 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:50:53 INF [TCP] connected lAddr=127.0.0.1:46778 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:50:53 INF [TCP] connected lAddr=127.0.0.1:46786 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:50:53 INF [TCP] connected lAddr=127.0.0.1:46794 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:50:53 INF [TCP] connected lAddr=127.0.0.1:46802 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:50:53 INF [TCP] connected lAddr=127.0.0.1:46808 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:50:53 INF [TCP] connected lAddr=127.0.0.1:46812 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:50:53 INF [TCP] connected lAddr=127.0.0.1:46820 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:50:53 INF [TCP] connected lAddr=127.0.0.1:46830 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:50:53 INF [TCP] connected lAddr=127.0.0.1:46846 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:50:53 INF [TCP] connected lAddr=127.0.0.1:46856 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:50:53 INF [TCP] connected lAddr=127.0.0.1:46868 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:50:54 INF [TCP] connected lAddr=127.0.0.1:46870 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:50:54 INF [TCP] connected lAddr=127.0.0.1:46886 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:50:54 INF [TCP] connected lAddr=127.0.0.1:46888 rAddr=collector.github.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:50:54 INF [TCP] connected lAddr=127.0.0.1:52098 rAddr=api.github.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:50:55 INF [TCP] connected lAddr=127.0.0.1:52100 rAddr=translate.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:51:36 INF [TCP] connected lAddr=127.0.0.1:35818 rAddr=github.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:51:36 INF [TCP] connected lAddr=127.0.0.1:35826 rAddr=api.github.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+15:51:39 INF [TCP] connected lAddr=127.0.0.1:35836 rAddr=www.embbnux.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:51:40 INF [TCP] connected lAddr=127.0.0.1:35862 rAddr=www.google-analytics.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:51:40 INF [TCP] connected lAddr=127.0.0.1:35878 rAddr=sp0.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+15:51:40 INF [TCP] connected lAddr=127.0.0.1:35848 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+15:51:41 INF [TCP] connected lAddr=127.0.0.1:35888 rAddr=ad.resourcefulman.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:51:41 INF [TCP] connected lAddr=127.0.0.1:35892 rAddr=r3.o.lencr.org:80 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:51:41 INF [TCP] connected lAddr=127.0.0.1:35900 rAddr=lh3.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:51:42 INF [TCP] connected lAddr=127.0.0.1:35916 rAddr=www.googletagmanager.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:51:42 INF [TCP] connected lAddr=127.0.0.1:35920 rAddr=id.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:51:42 INF [TCP] connected lAddr=127.0.0.1:35932 rAddr=i.ytimg.com:443 mode=rule rule=DomainSuffix(ytimg.com) proxy=一元机场[美国 01 | 专线]
+15:51:42 INF [TCP] connected lAddr=127.0.0.1:35944 rAddr=i.ytimg.com:443 mode=rule rule=DomainSuffix(ytimg.com) proxy=一元机场[美国 01 | 专线]
+15:51:42 INF [TCP] connected lAddr=127.0.0.1:35960 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:51:43 INF [TCP] connected lAddr=127.0.0.1:35972 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:51:43 INF [TCP] connected lAddr=127.0.0.1:35974 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:51:43 INF [TCP] connected lAddr=127.0.0.1:35976 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=一元机场[美国 01 | 专线]
+15:51:45 INF [TCP] connected lAddr=127.0.0.1:60846 rAddr=www.youtube.com:443 mode=rule rule=DomainKeyword(youtube) proxy=一元机场[美国 01 | 专线]
+15:51:46 INF [TCP] connected lAddr=127.0.0.1:60850 rAddr=static.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=REJECT
+15:51:46 INF [TCP] connected lAddr=127.0.0.1:60862 rAddr=fonts.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=一元机场[美国 01 | 专线]
+15:51:46 INF [TCP] connected lAddr=127.0.0.1:60864 rAddr=ogs.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:51:47 INF [TCP] connected lAddr=127.0.0.1:60866 rAddr=jnn-pa.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:51:47 INF [TCP] connected lAddr=127.0.0.1:60872 rAddr=ogs.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:51:47 INF [TCP] connected lAddr=127.0.0.1:60888 rAddr=lh3.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:51:47 INF [TCP] connected lAddr=127.0.0.1:60896 rAddr=ssl.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=一元机场[美国 01 | 专线]
+15:51:47 INF [TCP] connected lAddr=127.0.0.1:60902 rAddr=fonts.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=一元机场[美国 01 | 专线]
+15:51:48 INF [TCP] connected lAddr=127.0.0.1:60910 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:52:08 INF [TCP] connected lAddr=127.0.0.1:57030 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:52:09 INF [TCP] connected lAddr=127.0.0.1:57038 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:52:19 INF [TCP] connected lAddr=127.0.0.1:60330 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:52:20 INF [TCP] connected lAddr=127.0.0.1:60338 rAddr=firefox.settings.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:53:16 INF [TCP] connected lAddr=127.0.0.1:41446 rAddr=www.st.com.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+15:53:48 INF [TCP] connected lAddr=127.0.0.1:47368 rAddr=c.go-mpulse.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:53:49 INF [TCP] connected lAddr=127.0.0.1:47372 rAddr=blacklist.tampermonkey.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:53:51 INF [TCP] connected lAddr=127.0.0.1:47382 rAddr=r3.o.lencr.org:80 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:54:12 INF [TCP] connected lAddr=127.0.0.1:38664 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:54:48 INF [TCP] connected lAddr=127.0.0.1:57372 rAddr=www.youtube.com:443 mode=rule rule=DomainKeyword(youtube) proxy=一元机场[美国 01 | 专线]
+15:55:20 INF [TCP] connected lAddr=127.0.0.1:33420 rAddr=safebrowsing.googleapis.com:443 mode=rule rule=Domain(safebrowsing.googleapis.com) proxy=DIRECT
+15:55:21 INF [TCP] connected lAddr=127.0.0.1:33434 rAddr=www.st.com.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+15:56:35 INF [TCP] connected lAddr=127.0.0.1:56442 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:56:36 INF [TCP] connected lAddr=127.0.0.1:56456 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:56:46 INF [TCP] connected lAddr=127.0.0.1:45458 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:57:41 INF [TCP] connected lAddr=127.0.0.1:46566 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+15:58:17 INF [TCP] connected lAddr=127.0.0.1:49844 rAddr=www.st.com.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+15:58:35 INF [TCP] connected lAddr=127.0.0.1:51338 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+15:59:19 INF [TCP] connected lAddr=127.0.0.1:54842 rAddr=c.go-mpulse.net:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+16:00:21 INF [TCP] connected lAddr=127.0.0.1:36316 rAddr=www.st.com.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+16:00:23 INF [TCP] connected lAddr=127.0.0.1:36318 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+16:00:25 INF [TCP] connected lAddr=127.0.0.1:41316 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+16:00:36 INF [TCP] connected lAddr=127.0.0.1:46332 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+16:00:37 INF [TCP] connected lAddr=127.0.0.1:46338 rAddr=firefox.settings.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+16:00:37 INF [TCP] connected lAddr=127.0.0.1:46350 rAddr=r10.o.lencr.org:80 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+16:01:46 INF [TCP] connected lAddr=127.0.0.1:48688 rAddr=alive.github.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+16:02:06 INF [TCP] connected lAddr=127.0.0.1:50758 rAddr=alive.github.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+16:02:25 INF [TCP] connected lAddr=127.0.0.1:38910 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+16:02:25 INF [TCP] connected lAddr=127.0.0.1:38920 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+16:02:27 INF [TCP] connected lAddr=127.0.0.1:38928 rAddr=17de4c15.akstat.io:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+16:02:27 INF [TCP] connected lAddr=127.0.0.1:38932 rAddr=alive.github.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+16:02:29 INF [TCP] connected lAddr=127.0.0.1:38934 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+16:02:29 INF [TCP] connected lAddr=127.0.0.1:38948 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+16:02:30 INF [TCP] connected lAddr=127.0.0.1:38962 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+16:02:31 INF [TCP] connected lAddr=127.0.0.1:38976 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+16:02:31 INF [TCP] connected lAddr=127.0.0.1:38986 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+16:02:31 INF [TCP] connected lAddr=127.0.0.1:38998 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+16:02:31 INF [TCP] connected lAddr=127.0.0.1:39000 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[美国 01 | 专线]
+16:02:45 INF [TCP] connected lAddr=127.0.0.1:57928 rAddr=github.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+16:02:49 INF [TCP] connected lAddr=127.0.0.1:57936 rAddr=alive.github.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+16:02:55 INF [TCP] connected lAddr=127.0.0.1:40842 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+16:03:11 INF [TCP] connected lAddr=127.0.0.1:54988 rAddr=alive.github.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+16:03:12 INF [TCP] connected lAddr=127.0.0.1:55004 rAddr=17de4c15.akstat.io:443 mode=rule rule=Match() proxy=一元机场[美国 01 | 专线]
+16:03:32 INF [TCP] connected lAddr=127.0.0.1:47810 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+16:03:32 INF [TCP] connected lAddr=127.0.0.1:47812 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+16:03:32 INF [TCP] connected lAddr=127.0.0.1:47818 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+16:03:32 INF [TCP] connected lAddr=127.0.0.1:47826 rAddr=github.githubassets.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+16:03:32 INF [TCP] connected lAddr=127.0.0.1:47828 rAddr=avatars.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+16:03:32 INF [TCP] connected lAddr=127.0.0.1:47836 rAddr=camo.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+16:03:34 INF [TCP] connected lAddr=127.0.0.1:47850 rAddr=alive.github.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[美国 01 | 专线]
+16:03:37 INF [TCP] connected lAddr=127.0.0.1:58098 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:37 INF [TCP] connected lAddr=127.0.0.1:58102 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:45 INF [TCP] connected lAddr=127.0.0.1:49544 rAddr=api.github.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[香港 06 | 专线]
+16:03:46 INF [TCP] connected lAddr=127.0.0.1:49552 rAddr=www.songsterr.com:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:47 INF [TCP] connected lAddr=127.0.0.1:49554 rAddr=static.songsterr.com:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:47 INF [TCP] connected lAddr=127.0.0.1:49560 rAddr=static.songsterr.com:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:47 INF [TCP] connected lAddr=127.0.0.1:49564 rAddr=www.googletagmanager.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[香港 06 | 专线]
+16:03:48 INF [TCP] connected lAddr=127.0.0.1:49572 rAddr=static.songsterr.com:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:48 INF [TCP] connected lAddr=127.0.0.1:49582 rAddr=cdn-b.notsy.io:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:48 INF [TCP] connected lAddr=127.0.0.1:49598 rAddr=dqsljvtekg760.cloudfront.net:443 mode=rule rule=DomainSuffix(cloudfront.net) proxy=一元机场[香港 06 | 专线]
+16:03:48 INF [TCP] connected lAddr=127.0.0.1:49608 rAddr=static.songsterr.com:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:48 INF [TCP] connected lAddr=127.0.0.1:49610 rAddr=www.google.com.hk:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[香港 06 | 专线]
+16:03:48 INF [TCP] connected lAddr=127.0.0.1:49626 rAddr=analytics.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[香港 06 | 专线]
+16:03:49 INF [TCP] connected lAddr=127.0.0.1:49650 rAddr=audio4-1.songsterr.com:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:49 INF [TCP] connected lAddr=127.0.0.1:49648 rAddr=audio4-1.songsterr.com:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:49 INF [TCP] connected lAddr=127.0.0.1:49634 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+16:03:49 INF [TCP] connected lAddr=127.0.0.1:49660 rAddr=r3.o.lencr.org:80 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:49 INF [TCP] connected lAddr=127.0.0.1:49664 rAddr=stats.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=REJECT
+16:03:49 INF [TCP] connected lAddr=127.0.0.1:49676 rAddr=www.googletagservices.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[香港 06 | 专线]
+16:03:49 INF [TCP] connected lAddr=127.0.0.1:49688 rAddr=cdn.jsdelivr.net:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:49 INF [TCP] connected lAddr=127.0.0.1:49702 rAddr=htlb.casalemedia.com:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:49 INF [TCP] connected lAddr=127.0.0.1:49706 rAddr=fastlane.rubiconproject.com:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:50 INF [TCP] connected lAddr=127.0.0.1:49780 rAddr=ap.lijit.com:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:50 INF [TCP] connected lAddr=127.0.0.1:49762 rAddr=ghb.adtelligent.com:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:50 INF [TCP] connected lAddr=127.0.0.1:49718 rAddr=bidder.criteo.com:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:50 INF [TCP] connected lAddr=127.0.0.1:49714 rAddr=static.criteo.net:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:50 INF [TCP] connected lAddr=127.0.0.1:49738 rAddr=ib.adnxs.com:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:50 INF [TCP] connected lAddr=127.0.0.1:49750 rAddr=a4p.adpartner.pro:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:50 INF [TCP] connected lAddr=127.0.0.1:49776 rAddr=tlx.3lift.com:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:50 INF [TCP] connected lAddr=127.0.0.1:49742 rAddr=apex.go.sonobi.com:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:50 INF [TCP] connected lAddr=127.0.0.1:49794 rAddr=targeting.unrulymedia.com:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:50 INF [TCP] connected lAddr=127.0.0.1:49790 rAddr=adx.adform.net:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:50 INF [TCP] connected lAddr=127.0.0.1:49678 rAddr=ym-tack.b-cdn.net:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:50 INF [TCP] connected lAddr=127.0.0.1:49800 rAddr=hsingko.pages.dev:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:51 INF [TCP] connected lAddr=127.0.0.1:49802 rAddr=ocsp.sectigo.com:80 mode=rule rule=Domain(ocsp.sectigo.com) proxy=一元机场[香港 06 | 专线]
+16:03:51 INF [TCP] connected lAddr=127.0.0.1:49814 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=一元机场[香港 06 | 专线]
+16:03:51 INF [TCP] connected lAddr=127.0.0.1:49826 rAddr=securepubads.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=REJECT
+16:03:51 INF [TCP] connected lAddr=127.0.0.1:49868 rAddr=c.amazon-adsystem.com:443 mode=rule rule=DomainKeyword(amazon) proxy=一元机场[香港 06 | 专线]
+16:03:51 INF [TCP] connected lAddr=127.0.0.1:49874 rAddr=static.criteo.net:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:51 INF [TCP] connected lAddr=127.0.0.1:49852 rAddr=sync.1rx.io:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:51 INF [TCP] connected lAddr=127.0.0.1:49836 rAddr=js-sec.indexww.com:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:51 INF [TCP] connected lAddr=127.0.0.1:49880 rAddr=ocsp.sectigo.com:80 mode=rule rule=Domain(ocsp.sectigo.com) proxy=一元机场[香港 06 | 专线]
+16:03:51 INF [TCP] connected lAddr=127.0.0.1:49894 rAddr=utteranc.es:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:51 INF [TCP] connected lAddr=127.0.0.1:49912 rAddr=aax.amazon-adsystem.com:443 mode=rule rule=DomainKeyword(amazon) proxy=一元机场[香港 06 | 专线]
+16:03:52 INF [TCP] connected lAddr=127.0.0.1:49914 rAddr=config.aps.amazon-adsystem.com:443 mode=rule rule=DomainKeyword(amazon) proxy=一元机场[香港 06 | 专线]
+16:03:52 INF [TCP] connected lAddr=127.0.0.1:49916 rAddr=gum.criteo.com:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:52 INF [TCP] connected lAddr=127.0.0.1:49930 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=一元机场[香港 06 | 专线]
+16:03:52 INF [TCP] connected lAddr=127.0.0.1:49946 rAddr=s.amazon-adsystem.com:443 mode=rule rule=DomainKeyword(amazon) proxy=一元机场[香港 06 | 专线]
+16:03:53 INF [TCP] connected lAddr=127.0.0.1:49952 rAddr=dnacdn.net:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:53 INF [TCP] connected lAddr=127.0.0.1:49964 rAddr=ag.gbc.criteo.com:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:53 INF [TCP] connected lAddr=127.0.0.1:49970 rAddr=gem.gbc.criteo.com:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:53 INF [TCP] connected lAddr=127.0.0.1:49972 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=一元机场[香港 06 | 专线]
+16:03:53 INF [TCP] connected lAddr=127.0.0.1:49974 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=一元机场[香港 06 | 专线]
+16:03:53 INF [TCP] connected lAddr=127.0.0.1:49982 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=一元机场[香港 06 | 专线]
+16:03:54 INF [TCP] connected lAddr=127.0.0.1:49996 rAddr=eb2.3lift.com:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:54 INF [TCP] connected lAddr=127.0.0.1:50010 rAddr=acdn.adnxs.com:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:54 INF [TCP] connected lAddr=127.0.0.1:50024 rAddr=eus.rubiconproject.com:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:54 INF [TCP] connected lAddr=127.0.0.1:50028 rAddr=ocsp.r2m02.amazontrust.com:80 mode=rule rule=DomainKeyword(amazon) proxy=一元机场[香港 06 | 专线]
+16:03:54 INF [TCP] connected lAddr=127.0.0.1:50034 rAddr=token.rubiconproject.com:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:54 INF [TCP] connected lAddr=127.0.0.1:38652 rAddr=ssum-sec.casalemedia.com:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:54 INF [TCP] connected lAddr=127.0.0.1:38656 rAddr=ib.adnxs.com:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:55 INF [TCP] connected lAddr=127.0.0.1:38662 rAddr=cdn.indexww.com:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:55 INF [TCP] connected lAddr=127.0.0.1:38676 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[香港 06 | 专线]
+16:03:56 WRN [TCP] dial failed error=dial tcp4 54.223.135.67:443: i/o timeout proxy=DIRECT lAddr=127.0.0.1:49906 rAddr=api.rlcdn.com:443 rule=GeoIP rulePayload=CN
+16:03:56 INF [TCP] connected lAddr=127.0.0.1:38684 rAddr=api.rlcdn.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+16:03:56 INF [TCP] connected lAddr=127.0.0.1:38700 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:57 INF [TCP] connected lAddr=127.0.0.1:38710 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:57 INF [TCP] connected lAddr=127.0.0.1:38708 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:03:57 INF [TCP] connected lAddr=127.0.0.1:38722 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[香港 06 | 专线]
+16:03:57 INF [TCP] connected lAddr=127.0.0.1:38724 rAddr=www.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[香港 06 | 专线]
+16:03:58 INF [TCP] connected lAddr=127.0.0.1:38736 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=一元机场[香港 06 | 专线]
+16:03:58 INF [TCP] connected lAddr=127.0.0.1:38740 rAddr=alive.github.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[香港 06 | 专线]
+16:03:59 INF [TCP] connected lAddr=127.0.0.1:38748 rAddr=alive.github.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[香港 06 | 专线]
+16:04:00 INF [TCP] connected lAddr=127.0.0.1:38762 rAddr=alive.github.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[香港 06 | 专线]
+16:04:01 INF [TCP] connected lAddr=127.0.0.1:38802 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[香港 06 | 专线]
+16:04:01 INF [TCP] connected lAddr=127.0.0.1:38814 rAddr=csm.sg1.as.criteo.net:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:04:01 INF [TCP] connected lAddr=127.0.0.1:38828 rAddr=alive.github.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[香港 06 | 专线]
+16:04:01 INF [TCP] connected lAddr=127.0.0.1:38832 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=一元机场[香港 06 | 专线]
+16:04:01 INF [TCP] connected lAddr=127.0.0.1:38844 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[香港 06 | 专线]
+16:04:02 INF [TCP] connected lAddr=127.0.0.1:38866 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[香港 06 | 专线]
+16:04:03 INF [TCP] connected lAddr=127.0.0.1:38870 rAddr=www.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=一元机场[香港 06 | 专线]
+16:04:03 INF [TCP] connected lAddr=127.0.0.1:38886 rAddr=avatars.githubusercontent.com:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[香港 06 | 专线]
+16:04:05 INF [TCP] connected lAddr=127.0.0.1:36988 rAddr=ogs.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[香港 06 | 专线]
+16:04:06 INF [TCP] connected lAddr=127.0.0.1:38774 rAddr=lh3.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[香港 06 | 专线]
+16:04:06 INF [TCP] connected lAddr=127.0.0.1:37018 rAddr=ogs.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[香港 06 | 专线]
+16:04:12 INF [TCP] connected lAddr=127.0.0.1:37026 rAddr=gedit-technology.github.io:443 mode=rule rule=DomainKeyword(github) proxy=一元机场[香港 06 | 专线]
+16:04:17 INF [TCP] connected lAddr=127.0.0.1:50006 rAddr=config.immersivetranslate.com:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:04:17 INF [TCP] connected lAddr=127.0.0.1:50020 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:04:18 INF [TCP] connected lAddr=127.0.0.1:50032 rAddr=translate.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[香港 06 | 专线]
+16:04:18 INF [TCP] connected lAddr=127.0.0.1:50044 rAddr=firefox.settings.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:04:18 INF [TCP] connected lAddr=127.0.0.1:50050 rAddr=r10.o.lencr.org:80 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:04:55 INF [TCP] connected lAddr=127.0.0.1:56304 rAddr=www.youtube.com:443 mode=rule rule=DomainKeyword(youtube) proxy=一元机场[香港 06 | 专线]
+16:05:18 INF [TCP] connected lAddr=127.0.0.1:37710 rAddr=safebrowsing.googleapis.com:443 mode=rule rule=Domain(safebrowsing.googleapis.com) proxy=DIRECT
+16:05:34 INF [TCP] connected lAddr=127.0.0.1:50702 rAddr=i.ytimg.com:443 mode=rule rule=DomainSuffix(ytimg.com) proxy=一元机场[香港 06 | 专线]
+16:05:36 INF [TCP] connected lAddr=127.0.0.1:37256 rAddr=googleads.g.doubleclick.net:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[香港 06 | 专线]
+16:05:36 INF [TCP] connected lAddr=127.0.0.1:37272 rAddr=static.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=REJECT
+16:05:36 INF [TCP] connected lAddr=127.0.0.1:37278 rAddr=jnn-pa.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[香港 06 | 专线]
+16:05:36 INF [TCP] connected lAddr=127.0.0.1:37284 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37292 rAddr=csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37380 rAddr=csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37304 rAddr=csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37348 rAddr=csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37374 rAddr=csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37358 rAddr=csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37346 rAddr=csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37390 rAddr=csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37308 rAddr=g.csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37392 rAddr=csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37412 rAddr=g.csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37486 rAddr=g.csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37488 rAddr=g.csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37410 rAddr=g.csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37460 rAddr=g.csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37470 rAddr=g.csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37462 rAddr=g.csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37520 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=一元机场[香港 06 | 专线]
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37398 rAddr=csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37504 rAddr=safebrowsing.googleapis.com:443 mode=rule rule=Domain(safebrowsing.googleapis.com) proxy=DIRECT
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37532 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=一元机场[香港 06 | 专线]
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37536 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=一元机场[香港 06 | 专线]
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37552 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=一元机场[香港 06 | 专线]
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37528 rAddr=s3a.pstatp.com:443 mode=rule rule=DomainSuffix(pstatp.com) proxy=DIRECT
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37568 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=一元机场[香港 06 | 专线]
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37428 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37580 rAddr=status.rapidssl.com:80 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37596 rAddr=eva2.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37616 rAddr=img-blog.csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37328 rAddr=profile-avatar.csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37622 rAddr=img-blog.csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37640 rAddr=img-blog.csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37338 rAddr=img-home.csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37318 rAddr=img-blog.csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37632 rAddr=img-blog.csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37646 rAddr=profile-avatar.csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37604 rAddr=img-blog.csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37664 rAddr=img-blog.csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37650 rAddr=eva2.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37670 rAddr=img-blog.csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37454 rAddr=g.csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37680 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=一元机场[香港 06 | 专线]
+16:05:37 INF [TCP] connected lAddr=127.0.0.1:37682 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=一元机场[香港 06 | 专线]
+16:05:38 INF [TCP] connected lAddr=127.0.0.1:37690 rAddr=img-home.csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+16:05:38 INF [TCP] connected lAddr=127.0.0.1:37714 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+16:05:38 INF [TCP] connected lAddr=127.0.0.1:37704 rAddr=passport.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+16:05:38 INF [TCP] connected lAddr=127.0.0.1:37732 rAddr=img-home.csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+16:05:38 INF [TCP] connected lAddr=127.0.0.1:37728 rAddr=devpress-api.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+16:05:38 INF [TCP] connected lAddr=127.0.0.1:37768 rAddr=kunpeng.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+16:05:38 INF [TCP] connected lAddr=127.0.0.1:37766 rAddr=kunpeng.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+16:05:38 INF [TCP] connected lAddr=127.0.0.1:37772 rAddr=mp-activity.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+16:05:38 INF [TCP] connected lAddr=127.0.0.1:37754 rAddr=silkroad.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+16:05:38 INF [TCP] connected lAddr=127.0.0.1:37780 rAddr=redisdatarecall.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+16:05:38 INF [TCP] connected lAddr=127.0.0.1:37702 rAddr=passport.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+16:05:38 INF [TCP] connected lAddr=127.0.0.1:37782 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+16:05:38 INF [TCP] connected lAddr=127.0.0.1:37760 rAddr=mp-activity.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+16:05:38 INF [TCP] connected lAddr=127.0.0.1:37788 rAddr=devpress.csdnimg.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+16:05:38 INF [TCP] connected lAddr=127.0.0.1:37802 rAddr=kunyu.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+16:05:38 INF [TCP] connected lAddr=127.0.0.1:37872 rAddr=pagead2.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[香港 06 | 专线]
+16:05:38 INF [TCP] connected lAddr=127.0.0.1:37870 rAddr=www.google-analytics.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[香港 06 | 专线]
+16:05:38 INF [TCP] connected lAddr=127.0.0.1:37818 rAddr=www.clarity.ms:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:05:38 INF [TCP] connected lAddr=127.0.0.1:37836 rAddr=zz.bdstatic.com:443 mode=rule rule=DomainSuffix(bdstatic.com) proxy=DIRECT
+16:05:38 INF [TCP] connected lAddr=127.0.0.1:37842 rAddr=gsp0.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:05:38 INF [TCP] connected lAddr=127.0.0.1:37856 rAddr=pos.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:05:38 INF [TCP] connected lAddr=127.0.0.1:37822 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:05:39 INF [TCP] connected lAddr=127.0.0.1:37884 rAddr=s2.loli.net:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:05:39 INF [TCP] connected lAddr=127.0.0.1:37874 rAddr=sp0.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:05:39 INF [TCP] connected lAddr=127.0.0.1:37888 rAddr=stats.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=REJECT
+16:05:39 INF [TCP] connected lAddr=127.0.0.1:37892 rAddr=stats.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=REJECT
+16:05:39 INF [TCP] connected lAddr=127.0.0.1:37904 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+16:05:39 INF [TCP] connected lAddr=127.0.0.1:37928 rAddr=zhannei-dm.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+16:05:39 INF [TCP] connected lAddr=127.0.0.1:37916 rAddr=statistic.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+16:05:39 INF [TCP] connected lAddr=127.0.0.1:37940 rAddr=cdn-static-devbit.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+16:05:40 INF [TCP] connected lAddr=127.0.0.1:37946 rAddr=bizapi.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+16:05:40 INF [TCP] connected lAddr=127.0.0.1:37944 rAddr=bizapi.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+16:05:40 INF [TCP] connected lAddr=127.0.0.1:37954 rAddr=tpc.googlesyndication.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[香港 06 | 专线]
+16:05:41 INF [TCP] connected lAddr=127.0.0.1:37970 rAddr=csi.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=一元机场[香港 06 | 专线]
+16:05:42 INF [TCP] connected lAddr=127.0.0.1:37982 rAddr=o.pki.goog:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+16:05:44 INF [TCP] connected lAddr=127.0.0.1:37996 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+16:05:44 INF [TCP] connected lAddr=127.0.0.1:53732 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+16:05:45 INF [TCP] connected lAddr=127.0.0.1:53746 rAddr=s3a.pstatp.com:443 mode=rule rule=DomainSuffix(pstatp.com) proxy=DIRECT
+16:05:45 INF [TCP] connected lAddr=127.0.0.1:53756 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+16:05:46 INF [TCP] connected lAddr=127.0.0.1:53768 rAddr=blog.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+16:06:05 INF [TCP] connected lAddr=127.0.0.1:37372 rAddr=lh3.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[香港 06 | 专线]
+16:06:32 INF [TCP] connected lAddr=127.0.0.1:49530 rAddr=passport-api.csdn.net:443 mode=rule rule=DomainSuffix(csdn.net) proxy=DIRECT
+16:07:20 INF [TCP] connected lAddr=127.0.0.1:35954 rAddr=lh3.googleusercontent.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[香港 06 | 专线]
+16:07:24 INF [TCP] connected lAddr=127.0.0.1:35994 rAddr=safebrowsing.googleapis.com:443 mode=rule rule=Domain(safebrowsing.googleapis.com) proxy=DIRECT
+16:07:24 INF [TCP] connected lAddr=127.0.0.1:36010 rAddr=en.wikipedia.org:443 mode=rule rule=DomainSuffix(wikipedia.org) proxy=一元机场[香港 06 | 专线]
+16:07:24 INF [TCP] connected lAddr=127.0.0.1:35984 rAddr=www.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=一元机场[香港 06 | 专线]
+16:07:24 INF [TCP] connected lAddr=127.0.0.1:41348 rAddr=upload.wikimedia.org:443 mode=rule rule=DomainSuffix(wikimedia.org) proxy=一元机场[香港 06 | 专线]
+16:07:24 INF [TCP] connected lAddr=127.0.0.1:41354 rAddr=upload.wikimedia.org:443 mode=rule rule=DomainSuffix(wikimedia.org) proxy=一元机场[香港 06 | 专线]
+16:07:24 INF [TCP] connected lAddr=127.0.0.1:41370 rAddr=upload.wikimedia.org:443 mode=rule rule=DomainSuffix(wikimedia.org) proxy=一元机场[香港 06 | 专线]
+16:07:24 INF [TCP] connected lAddr=127.0.0.1:41380 rAddr=upload.wikimedia.org:443 mode=rule rule=DomainSuffix(wikimedia.org) proxy=一元机场[香港 06 | 专线]
+16:07:24 INF [TCP] connected lAddr=127.0.0.1:41394 rAddr=upload.wikimedia.org:443 mode=rule rule=DomainSuffix(wikimedia.org) proxy=一元机场[香港 06 | 专线]
+16:07:24 INF [TCP] connected lAddr=127.0.0.1:41392 rAddr=upload.wikimedia.org:443 mode=rule rule=DomainSuffix(wikimedia.org) proxy=一元机场[香港 06 | 专线]
+16:07:26 INF [TCP] connected lAddr=127.0.0.1:41434 rAddr=login.wikimedia.org:443 mode=rule rule=DomainSuffix(wikimedia.org) proxy=一元机场[香港 06 | 专线]
+16:07:26 INF [TCP] connected lAddr=127.0.0.1:41442 rAddr=translate.googleapis.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[香港 06 | 专线]
+16:07:30 INF [TCP] connected lAddr=127.0.0.1:41446 rAddr=config.immersivetranslate.com:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:07:32 INF [TCP] connected lAddr=127.0.0.1:41454 rAddr=zh.wikipedia.org:443 mode=rule rule=DomainSuffix(wikipedia.org) proxy=一元机场[香港 06 | 专线]
+16:07:32 INF [TCP] connected lAddr=127.0.0.1:41460 rAddr=zh.wikipedia.org:443 mode=rule rule=DomainSuffix(wikipedia.org) proxy=一元机场[香港 06 | 专线]
+16:07:34 INF [TCP] connected lAddr=127.0.0.1:41464 rAddr=intake-analytics.wikimedia.org:443 mode=rule rule=DomainSuffix(wikimedia.org) proxy=一元机场[香港 06 | 专线]
+16:07:34 INF [TCP] connected lAddr=127.0.0.1:41472 rAddr=intake-analytics.wikimedia.org:443 mode=rule rule=DomainSuffix(wikimedia.org) proxy=一元机场[香港 06 | 专线]
+16:07:36 INF [TCP] connected lAddr=127.0.0.1:36138 rAddr=meta.wikimedia.org:443 mode=rule rule=DomainSuffix(wikimedia.org) proxy=一元机场[香港 06 | 专线]
+16:08:27 INF [TCP] connected lAddr=127.0.0.1:59402 rAddr=encrypted-tbn0.gstatic.com:443 mode=rule rule=DomainSuffix(gstatic.com) proxy=一元机场[香港 06 | 专线]
+16:08:28 INF [TCP] connected lAddr=127.0.0.1:59412 rAddr=yiyan.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:08:28 INF [TCP] connected lAddr=127.0.0.1:59472 rAddr=nlp-eb.cdn.bcebos.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+16:08:28 INF [TCP] connected lAddr=127.0.0.1:59446 rAddr=nlp-eb.cdn.bcebos.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+16:08:28 INF [TCP] connected lAddr=127.0.0.1:59474 rAddr=nlp-eb.cdn.bcebos.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+16:08:28 INF [TCP] connected lAddr=127.0.0.1:59434 rAddr=nlp-eb.cdn.bcebos.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+16:08:28 INF [TCP] connected lAddr=127.0.0.1:59418 rAddr=nlp-eb.cdn.bcebos.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+16:08:28 INF [TCP] connected lAddr=127.0.0.1:59490 rAddr=nlp-eb.cdn.bcebos.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+16:08:28 INF [TCP] connected lAddr=127.0.0.1:59448 rAddr=passport.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:08:28 INF [TCP] connected lAddr=127.0.0.1:59504 rAddr=xlab.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:08:28 INF [TCP] connected lAddr=127.0.0.1:59458 rAddr=ppui-static-wap.cdn.bcebos.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+16:08:28 INF [TCP] connected lAddr=127.0.0.1:59560 rAddr=ocsp.sectigochina.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+16:08:28 INF [TCP] connected lAddr=127.0.0.1:59520 rAddr=ocsp.sectigochina.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+16:08:28 INF [TCP] connected lAddr=127.0.0.1:59576 rAddr=ocsp.sectigochina.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+16:08:28 INF [TCP] connected lAddr=127.0.0.1:59534 rAddr=ocsp.sectigochina.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+16:08:28 INF [TCP] connected lAddr=127.0.0.1:59546 rAddr=ocsp.sectigochina.com:80 mode=rule rule=GeoIP(CN) proxy=DIRECT
+16:08:31 INF [TCP] connected lAddr=127.0.0.1:59590 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:08:31 INF [TCP] connected lAddr=127.0.0.1:59606 rAddr=dlswbr.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:08:31 INF [TCP] connected lAddr=127.0.0.1:59612 rAddr=dlswbr.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:08:31 INF [TCP] connected lAddr=127.0.0.1:59626 rAddr=safe.cdn.bcebos.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+16:08:31 INF [TCP] connected lAddr=127.0.0.1:59642 rAddr=wappass.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:08:31 INF [TCP] connected lAddr=127.0.0.1:59680 rAddr=yiyan.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:08:31 INF [TCP] connected lAddr=127.0.0.1:59652 rAddr=yiyan.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:08:31 INF [TCP] connected lAddr=127.0.0.1:59668 rAddr=yiyan.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:08:31 INF [TCP] connected lAddr=127.0.0.1:59696 rAddr=yiyan.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:08:31 INF [TCP] connected lAddr=127.0.0.1:59660 rAddr=yiyan.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:08:32 INF [TCP] connected lAddr=127.0.0.1:59698 rAddr=miao.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:08:32 INF [TCP] connected lAddr=127.0.0.1:59714 rAddr=sofire.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:08:32 INF [TCP] connected lAddr=127.0.0.1:59726 rAddr=ocsp.digicert.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+16:08:32 INF [TCP] connected lAddr=127.0.0.1:59738 rAddr=himg.bdimg.com:443 mode=rule rule=DomainSuffix(bdimg.com) proxy=DIRECT
+16:08:32 INF [TCP] connected lAddr=127.0.0.1:59752 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:08:32 INF [TCP] connected lAddr=127.0.0.1:59768 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:08:32 INF [TCP] connected lAddr=127.0.0.1:59754 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:08:33 INF [TCP] connected lAddr=127.0.0.1:59770 rAddr=eb118-file.cdn.bcebos.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+16:08:33 INF [TCP] connected lAddr=127.0.0.1:59774 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:08:33 INF [TCP] connected lAddr=127.0.0.1:59782 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:08:33 INF [TCP] connected lAddr=127.0.0.1:59788 rAddr=sfp.safe.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:08:34 INF [TCP] connected lAddr=127.0.0.1:59800 rAddr=ocsp.digicert.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+16:08:49 INF [TCP] connected lAddr=127.0.0.1:41624 rAddr=miao.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:08:50 INF [TCP] connected lAddr=127.0.0.1:41636 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:09:44 INF [TCP] connected lAddr=127.0.0.1:60716 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:09:44 INF [TCP] connected lAddr=127.0.0.1:60684 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:09:44 INF [TCP] connected lAddr=127.0.0.1:60700 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:09:44 INF [TCP] connected lAddr=127.0.0.1:60714 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:09:44 INF [TCP] connected lAddr=127.0.0.1:60724 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:09:44 INF [TCP] connected lAddr=127.0.0.1:60726 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:09:44 INF [TCP] connected lAddr=127.0.0.1:60736 rAddr=yiyan.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:09:44 INF [TCP] connected lAddr=127.0.0.1:43274 rAddr=zhuanlan.zhihu.com:443 mode=rule rule=DomainSuffix(zhihu.com) proxy=DIRECT
+16:09:44 INF [TCP] connected lAddr=127.0.0.1:60728 rAddr=yiyan.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:09:44 INF [TCP] connected lAddr=127.0.0.1:60654 rAddr=www.bilibili.com:443 mode=rule rule=DomainSuffix(bilibili.com) proxy=DIRECT
+16:09:44 INF [TCP] connected lAddr=127.0.0.1:60748 rAddr=yiyan.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:09:44 INF [TCP] connected lAddr=127.0.0.1:60752 rAddr=yiyan.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:09:44 INF [TCP] connected lAddr=127.0.0.1:60644 rAddr=www.techphant.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+16:09:44 INF [TCP] connected lAddr=127.0.0.1:60762 rAddr=safebrowsing.googleapis.com:443 mode=rule rule=Domain(safebrowsing.googleapis.com) proxy=DIRECT
+16:09:44 INF [TCP] connected lAddr=127.0.0.1:60668 rAddr=www.oshwhub.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+16:09:44 INF [TCP] connected lAddr=127.0.0.1:60774 rAddr=r3.o.lencr.org:80 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:09:44 INF [TCP] connected lAddr=127.0.0.1:60790 rAddr=ocsp.sectigo.com:80 mode=rule rule=Domain(ocsp.sectigo.com) proxy=一元机场[香港 06 | 专线]
+16:09:45 INF [TCP] connected lAddr=127.0.0.1:60806 rAddr=oshwhub.com:443 mode=rule rule=GeoIP(CN) proxy=DIRECT
+16:11:32 INF [TCP] connected lAddr=127.0.0.1:50292 rAddr=sofire.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:11:32 INF [TCP] connected lAddr=127.0.0.1:50302 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:12:49 INF [TCP] connected lAddr=127.0.0.1:41060 rAddr=token.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:12:49 INF [TCP] connected lAddr=127.0.0.1:41046 rAddr=profile.accounts.firefox.com:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:12:49 INF [TCP] connected lAddr=127.0.0.1:41070 rAddr=api.accounts.firefox.com:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:12:49 INF [TCP] connected lAddr=127.0.0.1:41086 rAddr=r10.o.lencr.org:80 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:12:51 INF [TCP] connected lAddr=127.0.0.1:41088 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=一元机场[香港 06 | 专线]
+16:12:51 INF [TCP] connected lAddr=127.0.0.1:41104 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=一元机场[香港 06 | 专线]
+16:12:52 INF [TCP] connected lAddr=127.0.0.1:41118 rAddr=sync-1-us-west1-g.sync.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:12:52 INF [TCP] connected lAddr=127.0.0.1:41130 rAddr=r11.o.lencr.org:80 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:15:46 INF [TCP] connected lAddr=127.0.0.1:52396 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:17:45 INF [TCP] connected lAddr=127.0.0.1:58152 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[香港 06 | 专线]
+16:18:32 INF [TCP] connected lAddr=127.0.0.1:48296 rAddr=yiyan.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:18:32 INF [TCP] connected lAddr=127.0.0.1:48304 rAddr=yiyan.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:22:19 INF [TCP] connected lAddr=127.0.0.1:56846 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[香港 06 | 专线]
+16:27:47 INF [TCP] connected lAddr=127.0.0.1:41018 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[香港 06 | 专线]
+16:28:32 INF [TCP] connected lAddr=127.0.0.1:33104 rAddr=yiyan.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:28:32 INF [TCP] connected lAddr=127.0.0.1:33110 rAddr=yiyan.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+16:35:30 INF [TCP] connected lAddr=127.0.0.1:41836 rAddr=safebrowsing.googleapis.com:443 mode=rule rule=Domain(safebrowsing.googleapis.com) proxy=DIRECT
+16:36:48 INF [TCP] connected lAddr=127.0.0.1:48144 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:36:48 INF [TCP] connected lAddr=127.0.0.1:48134 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:36:48 INF [TCP] connected lAddr=127.0.0.1:48150 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:36:48 INF [TCP] connected lAddr=127.0.0.1:48146 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:36:48 INF [TCP] connected lAddr=127.0.0.1:48164 rAddr=www.youtube.com:443 mode=rule rule=DomainKeyword(youtube) proxy=一元机场[香港 06 | 专线]
+16:36:50 INF [TCP] connected lAddr=127.0.0.1:48178 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:36:50 INF [TCP] connected lAddr=127.0.0.1:48184 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:36:58 INF [TCP] connected lAddr=127.0.0.1:41462 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:36:58 INF [TCP] connected lAddr=127.0.0.1:41472 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:36:59 INF [TCP] connected lAddr=127.0.0.1:41488 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:36:59 INF [TCP] connected lAddr=127.0.0.1:41492 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=一元机场[香港 06 | 专线]
+16:37:19 INF [TCP] connected lAddr=127.0.0.1:48532 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[香港 06 | 专线]
+16:37:39 INF [TCP] connected lAddr=127.0.0.1:44500 rAddr=www.youtube.com:443 mode=rule rule=DomainKeyword(youtube) proxy=一元机场[香港 06 | 专线]
+16:37:49 INF [TCP] connected lAddr=127.0.0.1:37652 rAddr=accounts.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[香港 06 | 专线]
+16:38:11 INF [TCP] connected lAddr=127.0.0.1:38458 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[香港 06 | 专线]
+16:38:29 INF [TCP] connected lAddr=127.0.0.1:37456 rAddr=www.youtube.com:443 mode=rule rule=DomainKeyword(youtube) proxy=一元机场[香港 06 | 专线]
+16:38:33 WRN [TCP] dial failed error=lookup yiyan.baidu.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=DIRECT lAddr=127.0.0.1:37468 rAddr=yiyan.baidu.com:443 rule=DomainKeyword rulePayload=baidu
+16:38:33 WRN [TCP] dial failed error=lookup yiyan.baidu.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=DIRECT lAddr=127.0.0.1:37476 rAddr=yiyan.baidu.com:443 rule=DomainKeyword rulePayload=baidu
+16:38:33 WRN [TCP] dial failed error=lookup fclog.baidu.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=DIRECT lAddr=127.0.0.1:37480 rAddr=fclog.baidu.com:443 rule=DomainKeyword rulePayload=baidu
+16:38:33 WRN [TCP] dial failed error=lookup fclog.baidu.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=DIRECT lAddr=127.0.0.1:37488 rAddr=fclog.baidu.com:443 rule=DomainKeyword rulePayload=baidu
+16:39:19 INF [TCP] connected lAddr=127.0.0.1:48968 rAddr=www.youtube.com:443 mode=rule rule=DomainKeyword(youtube) proxy=一元机场[香港 06 | 专线]
+16:40:03 INF [TCP] connected lAddr=127.0.0.1:46252 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[香港 06 | 专线]
+16:40:09 INF [TCP] connected lAddr=127.0.0.1:54100 rAddr=www.youtube.com:443 mode=rule rule=DomainKeyword(youtube) proxy=一元机场[香港 06 | 专线]
+16:40:59 INF [TCP] connected lAddr=127.0.0.1:35620 rAddr=www.youtube.com:443 mode=rule rule=DomainKeyword(youtube) proxy=一元机场[香港 06 | 专线]
+16:41:49 INF [TCP] connected lAddr=127.0.0.1:35062 rAddr=www.youtube.com:443 mode=rule rule=DomainKeyword(youtube) proxy=一元机场[香港 06 | 专线]
+16:41:51 INF [TCP] connected lAddr=127.0.0.1:35072 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[香港 06 | 专线]
+16:42:39 INF [TCP] connected lAddr=127.0.0.1:50340 rAddr=www.youtube.com:443 mode=rule rule=DomainKeyword(youtube) proxy=一元机场[香港 06 | 专线]
+16:43:29 INF [TCP] connected lAddr=127.0.0.1:36886 rAddr=www.youtube.com:443 mode=rule rule=DomainKeyword(youtube) proxy=一元机场[香港 06 | 专线]
+16:44:19 INF [TCP] connected lAddr=127.0.0.1:43582 rAddr=www.youtube.com:443 mode=rule rule=DomainKeyword(youtube) proxy=一元机场[香港 06 | 专线]
+16:45:09 INF [TCP] connected lAddr=127.0.0.1:40048 rAddr=www.youtube.com:443 mode=rule rule=DomainKeyword(youtube) proxy=一元机场[香港 06 | 专线]
+16:45:12 INF [TCP] connected lAddr=127.0.0.1:40066 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[香港 06 | 专线]
+16:45:59 INF [TCP] connected lAddr=127.0.0.1:41880 rAddr=www.youtube.com:443 mode=rule rule=DomainKeyword(youtube) proxy=一元机场[香港 06 | 专线]
+16:46:49 INF [TCP] connected lAddr=127.0.0.1:40680 rAddr=www.youtube.com:443 mode=rule rule=DomainKeyword(youtube) proxy=一元机场[香港 06 | 专线]
+16:47:39 INF [TCP] connected lAddr=127.0.0.1:32866 rAddr=www.youtube.com:443 mode=rule rule=DomainKeyword(youtube) proxy=一元机场[香港 06 | 专线]
+16:48:29 INF [TCP] connected lAddr=127.0.0.1:40852 rAddr=www.youtube.com:443 mode=rule rule=DomainKeyword(youtube) proxy=一元机场[香港 06 | 专线]
+16:48:33 WRN [TCP] dial failed error=lookup yiyan.baidu.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=DIRECT lAddr=127.0.0.1:40858 rAddr=yiyan.baidu.com:443 rule=DomainKeyword rulePayload=baidu
+16:48:33 WRN [TCP] dial failed error=lookup yiyan.baidu.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=DIRECT lAddr=127.0.0.1:40868 rAddr=yiyan.baidu.com:443 rule=DomainKeyword rulePayload=baidu
+16:48:33 WRN [TCP] dial failed error=lookup fclog.baidu.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=DIRECT lAddr=127.0.0.1:40882 rAddr=fclog.baidu.com:443 rule=DomainKeyword rulePayload=baidu
+16:48:33 WRN [TCP] dial failed error=lookup fclog.baidu.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=DIRECT lAddr=127.0.0.1:40896 rAddr=fclog.baidu.com:443 rule=DomainKeyword rulePayload=baidu
+16:49:19 INF [TCP] connected lAddr=127.0.0.1:35964 rAddr=www.youtube.com:443 mode=rule rule=DomainKeyword(youtube) proxy=一元机场[香港 06 | 专线]
+16:50:09 INF [TCP] connected lAddr=127.0.0.1:43764 rAddr=www.youtube.com:443 mode=rule rule=DomainKeyword(youtube) proxy=一元机场[香港 06 | 专线]
+16:50:53 INF [TCP] connected lAddr=127.0.0.1:52634 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[香港 06 | 专线]
+16:50:59 INF [TCP] connected lAddr=127.0.0.1:37618 rAddr=www.youtube.com:443 mode=rule rule=DomainKeyword(youtube) proxy=一元机场[香港 06 | 专线]
+16:51:49 INF [TCP] connected lAddr=127.0.0.1:50332 rAddr=www.youtube.com:443 mode=rule rule=DomainKeyword(youtube) proxy=一元机场[香港 06 | 专线]
+16:51:51 INF [TCP] connected lAddr=127.0.0.1:50350 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[香港 06 | 专线]
+16:52:21 INF [TCP] connected lAddr=127.0.0.1:53182 rAddr=play.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[香港 06 | 专线]
+16:52:39 INF [TCP] connected lAddr=127.0.0.1:47264 rAddr=www.youtube.com:443 mode=rule rule=DomainKeyword(youtube) proxy=一元机场[香港 06 | 专线]
+16:53:30 INF [TCP] connected lAddr=127.0.0.1:51104 rAddr=www.youtube.com:443 mode=rule rule=DomainKeyword(youtube) proxy=一元机场[香港 06 | 专线]
+16:54:20 INF [TCP] connected lAddr=127.0.0.1:50548 rAddr=www.youtube.com:443 mode=rule rule=DomainKeyword(youtube) proxy=一元机场[香港 06 | 专线]
+16:55:10 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:41942 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+16:55:40 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:41594 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+16:56:10 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:39268 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+16:56:40 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:49744 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+16:57:11 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:35012 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+16:57:41 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:44208 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+16:58:11 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:39192 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+16:58:19 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:39122 rAddr=play.google.com:443 rule=DomainKeyword rulePayload=google
+16:58:20 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:39138 rAddr=accounts.google.com:443 rule=DomainKeyword rulePayload=google
+16:58:33 WRN [TCP] dial failed error=lookup yiyan.baidu.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=DIRECT lAddr=127.0.0.1:43740 rAddr=yiyan.baidu.com:443 rule=DomainKeyword rulePayload=baidu
+16:58:33 WRN [TCP] dial failed error=lookup yiyan.baidu.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=DIRECT lAddr=127.0.0.1:43748 rAddr=yiyan.baidu.com:443 rule=DomainKeyword rulePayload=baidu
+16:58:33 WRN [TCP] dial failed error=lookup fclog.baidu.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=DIRECT lAddr=127.0.0.1:43762 rAddr=fclog.baidu.com:443 rule=DomainKeyword rulePayload=baidu
+16:58:33 WRN [TCP] dial failed error=lookup fclog.baidu.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=DIRECT lAddr=127.0.0.1:43770 rAddr=fclog.baidu.com:443 rule=DomainKeyword rulePayload=baidu
+16:58:41 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:34150 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+16:59:11 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:58786 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+16:59:41 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:46796 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:00:11 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:55740 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:00:41 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:33622 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:01:11 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:59108 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:01:41 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:41718 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:01:52 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:50586 rAddr=play.google.com:443 rule=DomainKeyword rulePayload=google
+17:02:11 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:57142 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:02:41 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:44062 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:03:11 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:53336 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:03:41 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:43272 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:04:11 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:40226 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:04:41 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:51486 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:05:11 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:42058 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:05:41 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:50376 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:06:00 WRN [TCP] dial failed error=lookup safebrowsing.googleapis.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=DIRECT lAddr=127.0.0.1:55308 rAddr=safebrowsing.googleapis.com:443 rule=Domain rulePayload=safebrowsing.googleapis.com
+17:06:11 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:57392 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:06:41 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:55518 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:06:52 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:59346 rAddr=play.google.com:443 rule=DomainKeyword rulePayload=google
+17:07:11 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:50508 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:07:21 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:45956 rAddr=play.google.com:443 rule=DomainKeyword rulePayload=google
+17:07:41 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:52826 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:08:11 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:36196 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:08:33 WRN [TCP] dial failed error=lookup yiyan.baidu.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=DIRECT lAddr=127.0.0.1:60082 rAddr=yiyan.baidu.com:443 rule=DomainKeyword rulePayload=baidu
+17:08:33 WRN [TCP] dial failed error=lookup yiyan.baidu.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=DIRECT lAddr=127.0.0.1:60094 rAddr=yiyan.baidu.com:443 rule=DomainKeyword rulePayload=baidu
+17:08:33 WRN [TCP] dial failed error=lookup fclog.baidu.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=DIRECT lAddr=127.0.0.1:60096 rAddr=fclog.baidu.com:443 rule=DomainKeyword rulePayload=baidu
+17:08:33 WRN [TCP] dial failed error=lookup fclog.baidu.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=DIRECT lAddr=127.0.0.1:60100 rAddr=fclog.baidu.com:443 rule=DomainKeyword rulePayload=baidu
+17:08:41 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:35278 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:09:11 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:54182 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:09:41 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:34246 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:10:11 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:50814 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:10:41 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:32954 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:11:11 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:58328 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:11:41 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:46356 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:11:52 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:45284 rAddr=play.google.com:443 rule=DomainKeyword rulePayload=google
+17:12:11 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:60822 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:12:41 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:33730 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:12:51 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:40368 rAddr=update.greasyfork.org:443 rule=Match rulePayload=
+17:12:51 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:40384 rAddr=update.greasyfork.org:443 rule=Match rulePayload=
+17:13:11 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:34700 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:13:41 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:60220 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:14:11 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:38468 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:14:41 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:44116 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:15:11 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:51342 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:15:42 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:45120 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:16:12 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:55646 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:16:42 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:46058 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:16:53 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:51312 rAddr=play.google.com:443 rule=DomainKeyword rulePayload=google
+17:17:12 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:53154 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:17:42 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:56278 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:18:12 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:37268 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:18:34 WRN [TCP] dial failed error=lookup yiyan.baidu.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=DIRECT lAddr=127.0.0.1:48980 rAddr=yiyan.baidu.com:443 rule=DomainKeyword rulePayload=baidu
+17:18:34 WRN [TCP] dial failed error=lookup yiyan.baidu.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=DIRECT lAddr=127.0.0.1:48994 rAddr=yiyan.baidu.com:443 rule=DomainKeyword rulePayload=baidu
+17:18:34 WRN [TCP] dial failed error=lookup fclog.baidu.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=DIRECT lAddr=127.0.0.1:49004 rAddr=fclog.baidu.com:443 rule=DomainKeyword rulePayload=baidu
+17:18:34 WRN [TCP] dial failed error=lookup fclog.baidu.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=DIRECT lAddr=127.0.0.1:49014 rAddr=fclog.baidu.com:443 rule=DomainKeyword rulePayload=baidu
+17:18:42 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:50788 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:19:12 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:34340 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:19:42 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:54910 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:20:12 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:36864 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:20:42 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:41366 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:21:12 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:34348 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:21:42 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:52478 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:21:53 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:33752 rAddr=play.google.com:443 rule=DomainKeyword rulePayload=google
+17:22:12 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:39326 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:22:22 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:41180 rAddr=play.google.com:443 rule=DomainKeyword rulePayload=google
+17:22:42 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:55428 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:23:12 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:56306 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:23:42 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:34294 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:24:12 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:58980 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:24:42 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:38644 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:25:12 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:47978 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:25:42 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:50896 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:26:12 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:48260 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:26:42 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:49080 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:27:12 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:52574 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:27:22 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:45338 rAddr=play.google.com:443 rule=DomainKeyword rulePayload=google
+17:27:42 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:59812 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:28:12 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:57172 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:28:22 WRN [TCP] dial failed error=lookup safebrowsing.googleapis.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=DIRECT lAddr=127.0.0.1:59500 rAddr=safebrowsing.googleapis.com:443 rule=Domain rulePayload=safebrowsing.googleapis.com
+17:28:34 WRN [TCP] dial failed error=lookup yiyan.baidu.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=DIRECT lAddr=127.0.0.1:60894 rAddr=yiyan.baidu.com:443 rule=DomainKeyword rulePayload=baidu
+17:28:34 WRN [TCP] dial failed error=lookup yiyan.baidu.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=DIRECT lAddr=127.0.0.1:60904 rAddr=yiyan.baidu.com:443 rule=DomainKeyword rulePayload=baidu
+17:28:34 WRN [TCP] dial failed error=lookup fclog.baidu.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=DIRECT lAddr=127.0.0.1:60918 rAddr=fclog.baidu.com:443 rule=DomainKeyword rulePayload=baidu
+17:28:34 WRN [TCP] dial failed error=lookup fclog.baidu.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=DIRECT lAddr=127.0.0.1:60920 rAddr=fclog.baidu.com:443 rule=DomainKeyword rulePayload=baidu
+17:28:34 WRN [TCP] dial failed error=lookup fclog.baidu.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=DIRECT lAddr=127.0.0.1:60930 rAddr=fclog.baidu.com:443 rule=DomainKeyword rulePayload=baidu
+17:28:42 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:57666 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:29:12 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:52496 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:29:42 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:42272 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:30:12 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:49362 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:30:42 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:59866 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:31:12 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:36046 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:31:42 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:42148 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:31:53 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:45430 rAddr=play.google.com:443 rule=DomainKeyword rulePayload=google
+17:32:12 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:49454 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:32:42 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:57390 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:33:12 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:47892 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:33:42 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:54980 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:34:12 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:41026 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:34:42 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:44366 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:35:12 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:43462 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:35:43 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:47212 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:36:13 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:57790 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:36:43 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:41652 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:36:48 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:39604 rAddr=profile.accounts.firefox.com:443 rule=Match rulePayload=
+17:36:48 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:39608 rAddr=token.services.mozilla.com:443 rule=Match rulePayload=
+17:36:48 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:39624 rAddr=sync-1-us-west1-g.sync.services.mozilla.com:443 rule=Match rulePayload=
+17:36:54 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:39646 rAddr=play.google.com:443 rule=DomainKeyword rulePayload=google
+17:37:13 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:45334 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:37:23 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:53410 rAddr=play.google.com:443 rule=DomainKeyword rulePayload=google
+17:37:43 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:40918 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:38:13 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:38482 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:38:21 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:43630 rAddr=accounts.google.com:443 rule=DomainKeyword rulePayload=google
+17:38:34 WRN [TCP] dial failed error=lookup yiyan.baidu.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=DIRECT lAddr=127.0.0.1:58160 rAddr=yiyan.baidu.com:443 rule=DomainKeyword rulePayload=baidu
+17:38:34 WRN [TCP] dial failed error=lookup yiyan.baidu.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=DIRECT lAddr=127.0.0.1:58164 rAddr=yiyan.baidu.com:443 rule=DomainKeyword rulePayload=baidu
+17:38:34 WRN [TCP] dial failed error=lookup fclog.baidu.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=DIRECT lAddr=127.0.0.1:58166 rAddr=fclog.baidu.com:443 rule=DomainKeyword rulePayload=baidu
+17:38:34 WRN [TCP] dial failed error=lookup fclog.baidu.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=DIRECT lAddr=127.0.0.1:58182 rAddr=fclog.baidu.com:443 rule=DomainKeyword rulePayload=baidu
+17:38:34 WRN [TCP] dial failed error=lookup fclog.baidu.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=DIRECT lAddr=127.0.0.1:42088 rAddr=fclog.baidu.com:443 rule=DomainKeyword rulePayload=baidu
+17:38:43 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:42092 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:39:13 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:38854 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:39:43 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:42950 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:40:13 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:46008 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:40:43 WRN [TCP] dial failed error=lookup yiyan.baidu.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=DIRECT lAddr=127.0.0.1:36304 rAddr=yiyan.baidu.com:443 rule=DomainKeyword rulePayload=baidu
+17:40:43 WRN [TCP] dial failed error=lookup yiyan.baidu.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=DIRECT lAddr=127.0.0.1:36316 rAddr=yiyan.baidu.com:443 rule=DomainKeyword rulePayload=baidu
+17:40:43 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:36320 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:40:43 WRN [TCP] dial failed error=lookup fclog.baidu.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=DIRECT lAddr=127.0.0.1:36324 rAddr=fclog.baidu.com:443 rule=DomainKeyword rulePayload=baidu
+17:40:43 WRN [TCP] dial failed error=lookup hm.baidu.com on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=DIRECT lAddr=127.0.0.1:36330 rAddr=hm.baidu.com:443 rule=DomainKeyword rulePayload=baidu
+17:40:44 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:36346 rAddr=firefox.settings.services.mozilla.com:443 rule=Match rulePayload=
+17:40:44 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:36348 rAddr=www.google.com.hk:443 rule=DomainKeyword rulePayload=google
+17:40:44 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:36354 rAddr=csi.gstatic.com:443 rule=DomainSuffix rulePayload=gstatic.com
+17:40:44 INF [TCP] connected lAddr=127.0.0.1:33752 rAddr=stats.g.doubleclick.net:443 mode=rule rule=DomainSuffix(doubleclick.net) proxy=REJECT
+17:40:45 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:33762 rAddr=www.google.com:443 rule=DomainKeyword rulePayload=google
+17:40:49 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:33770 rAddr=www.google.com:443 rule=DomainKeyword rulePayload=google
+17:40:50 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:33776 rAddr=www.google.com:443 rule=DomainKeyword rulePayload=google
+17:40:51 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:33788 rAddr=www.google.com:443 rule=DomainKeyword rulePayload=google
+17:40:52 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:33794 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:40:52 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:33810 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:40:52 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:33816 rAddr=www.google.com:443 rule=DomainKeyword rulePayload=google
+17:40:52 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:33826 rAddr=www.youtube.com:443 rule=DomainKeyword rulePayload=youtube
+17:40:52 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:33838 rAddr=play.google.com:443 rule=DomainKeyword rulePayload=google
+17:40:52 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:33852 rAddr=www.google.com:443 rule=DomainKeyword rulePayload=google
+17:40:53 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:33868 rAddr=www.google.com:443 rule=DomainKeyword rulePayload=google
+17:40:53 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:33878 rAddr=www.google.com:443 rule=DomainKeyword rulePayload=google
+17:40:53 WRN [TCP] dial failed error=hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org:443 connect error: lookup hk06.84d4d2ae-211c-475f-9076-35fdd96d779b.940a60a7-6cb5-4fa7-bd73-23230d77aa0e.yiyuanjichang.org on 8.8.8.8:53: dial udp 8.8.8.8:53: connect: network is unreachable proxy=一元机场 lAddr=127.0.0.1:33886 rAddr=www.google.com:443 rule=DomainKeyword rulePayload=google

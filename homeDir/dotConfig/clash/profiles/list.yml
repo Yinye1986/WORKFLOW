@@ -1,0 +1,13 @@
+files:
+  - time: 1719547474632.yml
+    name: 一元机场
+    url: https://s1.byte11.com/api/v1/client/subscribe?token=6a344639f56b81e3791016d39192d515
+    selected: []
+    interval: 24
+    subInfo:
+      upload: 287339847
+      download: 14851356935
+      total: 107374182400
+      expire: 1744211250
+    homeWeb: https://xn--4gq62f.com
+index: 0

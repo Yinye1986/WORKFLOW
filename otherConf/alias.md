@@ -1,4 +1,3 @@
-alias sudo="sudo "
 alias :q="exit"
 
 alias ll="ls -l"

@@ -1,0 +1,297 @@
+10:30:48 INF [API] listening addr=127.0.0.1:40491
+10:30:49 INF [Config] initial compatible provider name=故障转移
+10:30:49 INF [Config] initial compatible provider name=自动选择
+10:30:49 INF [Config] initial compatible provider name=一元机场
+10:30:49 WRN [CacheFile] can't open cache file error=timeout
+10:30:49 INF inbound create success inbound=mixed addr=127.0.0.1:7890 network=tcp
+10:30:49 INF inbound create success inbound=mixed addr=127.0.0.1:7890 network=udp
+10:51:07 INF [TCP] connected lAddr=127.0.0.1:33106 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+10:51:07 INF [TCP] connected lAddr=127.0.0.1:33116 rAddr=content-signature-2.cdn.mozilla.net:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+10:51:07 INF [TCP] connected lAddr=127.0.0.1:33132 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+10:51:07 INF [TCP] connected lAddr=127.0.0.1:33142 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+10:51:08 INF [TCP] connected lAddr=127.0.0.1:33148 rAddr=safebrowsing.googleapis.com:443 mode=rule rule=Domain(safebrowsing.googleapis.com) proxy=DIRECT
+10:51:08 INF [TCP] connected lAddr=127.0.0.1:33162 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+10:51:08 INF [TCP] connected lAddr=127.0.0.1:33174 rAddr=r10.o.lencr.org:80 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+10:51:08 INF [TCP] connected lAddr=127.0.0.1:33176 rAddr=firefox.settings.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+10:51:08 INF [TCP] connected lAddr=127.0.0.1:33184 rAddr=profile.accounts.firefox.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+10:51:08 INF [TCP] connected lAddr=127.0.0.1:33198 rAddr=token.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+10:51:08 INF [TCP] connected lAddr=127.0.0.1:33202 rAddr=r10.o.lencr.org:80 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+10:51:08 INF [TCP] connected lAddr=127.0.0.1:33200 rAddr=o.pki.goog:80 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+10:51:08 INF [TCP] connected lAddr=127.0.0.1:33208 rAddr=services.addons.mozilla.org:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+10:51:08 INF [TCP] connected lAddr=127.0.0.1:33220 rAddr=firefoxusercontent.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+10:51:08 INF [TCP] connected lAddr=127.0.0.1:33230 rAddr=api.accounts.firefox.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+10:51:08 INF [TCP] connected lAddr=127.0.0.1:33238 rAddr=r10.o.lencr.org:80 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+10:51:08 INF [TCP] connected lAddr=127.0.0.1:33262 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+10:51:08 INF [TCP] connected lAddr=127.0.0.1:33250 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+10:51:08 INF [TCP] connected lAddr=127.0.0.1:33286 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=一元机场[香港 05 | 专线]
+10:51:08 INF [TCP] connected lAddr=127.0.0.1:33270 rAddr=r10.o.lencr.org:80 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+10:51:08 INF [TCP] connected lAddr=127.0.0.1:33292 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+10:51:08 INF [TCP] connected lAddr=127.0.0.1:33300 rAddr=ocsp.digicert.com:80 mode=rule rule=DomainSuffix(digicert.com) proxy=一元机场[香港 05 | 专线]
+10:51:08 INF [TCP] connected lAddr=127.0.0.1:33302 rAddr=sync-1-us-west1-g.sync.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+10:51:08 INF [TCP] connected lAddr=127.0.0.1:33312 rAddr=r11.o.lencr.org:80 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+10:51:08 INF [TCP] connected lAddr=127.0.0.1:33326 rAddr=mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:08 INF [TCP] connected lAddr=127.0.0.1:33360 rAddr=mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:08 INF [TCP] connected lAddr=127.0.0.1:33380 rAddr=darkreader.org:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+10:51:09 INF [TCP] connected lAddr=127.0.0.1:33390 rAddr=ocsp.digicert.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+10:51:09 INF [TCP] connected lAddr=127.0.0.1:33414 rAddr=rescdn.qqmail.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+10:51:09 INF [TCP] connected lAddr=127.0.0.1:33336 rAddr=rescdn.qqmail.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+10:51:09 INF [TCP] connected lAddr=127.0.0.1:33402 rAddr=a.tampermonkey.net:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+10:51:09 INF [TCP] connected lAddr=127.0.0.1:33434 rAddr=rescdn.qqmail.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+10:51:09 INF [TCP] connected lAddr=127.0.0.1:33426 rAddr=mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:09 INF [TCP] connected lAddr=127.0.0.1:33450 rAddr=rescdn.qqmail.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+10:51:09 INF [TCP] connected lAddr=127.0.0.1:33464 rAddr=rescdn.qqmail.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+10:51:09 INF [TCP] connected lAddr=127.0.0.1:33454 rAddr=mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:09 INF [TCP] connected lAddr=127.0.0.1:33468 rAddr=mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:09 INF [TCP] connected lAddr=127.0.0.1:33486 rAddr=open.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:09 INF [TCP] connected lAddr=127.0.0.1:33476 rAddr=wx.mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:09 INF [TCP] connected lAddr=127.0.0.1:33348 rAddr=rl.mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:09 INF [TCP] connected lAddr=127.0.0.1:33484 rAddr=wx.mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:09 INF [TCP] connected lAddr=127.0.0.1:33492 rAddr=graph.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:09 INF [TCP] connected lAddr=127.0.0.1:33498 rAddr=ocsp.digicert.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+10:51:09 INF [TCP] connected lAddr=127.0.0.1:33510 rAddr=ocsp.digicert.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+10:51:09 INF [TCP] connected lAddr=127.0.0.1:33520 rAddr=ocsp2.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=一元机场[香港 05 | 专线]
+10:51:09 INF [TCP] connected lAddr=127.0.0.1:33526 rAddr=ocsp2.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=一元机场[香港 05 | 专线]
+10:51:09 INF [TCP] connected lAddr=127.0.0.1:33536 rAddr=ocsp.digicert.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+10:51:09 INF [TCP] connected lAddr=127.0.0.1:33538 rAddr=res.wx.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:09 INF [TCP] connected lAddr=127.0.0.1:33542 rAddr=ssl.captcha.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:09 INF [TCP] connected lAddr=127.0.0.1:33546 rAddr=ssl.captcha.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:10 INF [TCP] connected lAddr=127.0.0.1:33548 rAddr=r3.o.lencr.org:80 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+10:51:10 INF [TCP] connected lAddr=127.0.0.1:33550 rAddr=ocsp.digicert.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+10:51:10 INF [TCP] connected lAddr=127.0.0.1:33556 rAddr=ocsp.digicert.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+10:51:10 INF [TCP] connected lAddr=127.0.0.1:33584 rAddr=wx.mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:10 INF [TCP] connected lAddr=127.0.0.1:33566 rAddr=wx.mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:10 INF [TCP] connected lAddr=127.0.0.1:33572 rAddr=wx.mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:10 INF [TCP] connected lAddr=127.0.0.1:33612 rAddr=wx.mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:10 INF [TCP] connected lAddr=127.0.0.1:33590 rAddr=wx.mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:10 INF [TCP] connected lAddr=127.0.0.1:33598 rAddr=wx.mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:11 INF [TCP] connected lAddr=127.0.0.1:37310 rAddr=localhost.weixin.qq.com:13013 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:11 INF [TCP] connected lAddr=127.0.0.1:37316 rAddr=cube.weixinbridge.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+10:51:11 INF [TCP] connected lAddr=127.0.0.1:37330 rAddr=lp.open.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:11 INF [TCP] connected lAddr=127.0.0.1:37332 rAddr=ocsp.digicert.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+10:51:12 INF [TCP] connected lAddr=127.0.0.1:37308 rAddr=imgcache.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:12 INF [TCP] connected lAddr=127.0.0.1:37334 rAddr=qq-web-legacy.cdn-go.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+10:51:12 INF [TCP] connected lAddr=127.0.0.1:33466 rAddr=rescdn.qqmail.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+10:51:12 INF [TCP] connected lAddr=127.0.0.1:37344 rAddr=ocsp.dcocsp.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+10:51:12 INF [TCP] connected lAddr=127.0.0.1:37360 rAddr=ssl.ptlogin2.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:12 INF [TCP] connected lAddr=127.0.0.1:37368 rAddr=localhost.ptlogin2.qq.com:4301 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:12 INF [TCP] connected lAddr=127.0.0.1:37378 rAddr=qq-web-other.cdn-go.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+10:51:12 INF [TCP] connected lAddr=127.0.0.1:37402 rAddr=ocsp.digicert.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+10:51:12 INF [TCP] connected lAddr=127.0.0.1:37396 rAddr=ocsp.digicert.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+10:51:13 INF [TCP] connected lAddr=127.0.0.1:37410 rAddr=localhost.ptlogin2.qq.com:4303 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:13 INF [TCP] connected lAddr=127.0.0.1:37412 rAddr=aegis.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:13 INF [TCP] connected lAddr=127.0.0.1:37422 rAddr=ocsp.digicert.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+10:51:13 INF [TCP] connected lAddr=127.0.0.1:37426 rAddr=push.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+10:51:13 INF [TCP] connected lAddr=127.0.0.1:37434 rAddr=report.qqweb.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:13 INF [TCP] connected lAddr=127.0.0.1:37446 rAddr=ocsp2.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=一元机场[香港 05 | 专线]
+10:51:13 INF [TCP] connected lAddr=127.0.0.1:37460 rAddr=localhost.weixin.qq.com:13014 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:14 INF [TCP] connected lAddr=127.0.0.1:37510 rAddr=wx.mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:14 INF [TCP] connected lAddr=127.0.0.1:37520 rAddr=wx.mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:14 INF [TCP] connected lAddr=127.0.0.1:37500 rAddr=wx.mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:14 INF [TCP] connected lAddr=127.0.0.1:37490 rAddr=wx.mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:14 INF [TCP] connected lAddr=127.0.0.1:37474 rAddr=localhost.weixin.qq.com:13015 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:14 INF [TCP] connected lAddr=127.0.0.1:37524 rAddr=cube.weixinbridge.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+10:51:14 INF [TCP] connected lAddr=127.0.0.1:37538 rAddr=wp.mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:14 INF [TCP] connected lAddr=127.0.0.1:37544 rAddr=localhost.weixin.qq.com:14013 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:14 INF [TCP] connected lAddr=127.0.0.1:37550 rAddr=localhost.weixin.qq.com:14014 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:14 INF [TCP] connected lAddr=127.0.0.1:37558 rAddr=localhost.weixin.qq.com:14015 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:15 INF [TCP] connected lAddr=127.0.0.1:37570 rAddr=localhost.ptlogin2.qq.com:4305 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:15 INF [TCP] connected lAddr=127.0.0.1:37572 rAddr=safebrowsing.googleapis.com:443 mode=rule rule=Domain(safebrowsing.googleapis.com) proxy=DIRECT
+10:51:15 INF [TCP] connected lAddr=127.0.0.1:37606 rAddr=localhost.ptlogin2.qq.com:4307 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:15 INF [TCP] connected lAddr=127.0.0.1:37596 rAddr=qq-web-legacy.cdn-go.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+10:51:16 INF [TCP] connected lAddr=127.0.0.1:37612 rAddr=localhost.ptlogin2.qq.com:4309 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:16 INF [TCP] connected lAddr=127.0.0.1:37682 rAddr=gzc-dfsdown.mail.ftn.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:16 INF [TCP] connected lAddr=127.0.0.1:37664 rAddr=gzc-dfsdown.mail.ftn.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:16 INF [TCP] connected lAddr=127.0.0.1:37670 rAddr=gzc-dfsdown.mail.ftn.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:16 INF [TCP] connected lAddr=127.0.0.1:37652 rAddr=gzc-dfsdown.mail.ftn.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:16 INF [TCP] connected lAddr=127.0.0.1:37636 rAddr=gzc-dfsdown.mail.ftn.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:16 INF [TCP] connected lAddr=127.0.0.1:37646 rAddr=gzc-dfsdown.mail.ftn.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:16 INF [TCP] connected lAddr=127.0.0.1:37694 rAddr=ocsp2.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=一元机场[香港 05 | 专线]
+10:51:16 INF [TCP] connected lAddr=127.0.0.1:37698 rAddr=ocsp2.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=一元机场[香港 05 | 专线]
+10:51:16 INF [TCP] connected lAddr=127.0.0.1:37704 rAddr=ocsp2.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=一元机场[香港 05 | 专线]
+10:51:16 INF [TCP] connected lAddr=127.0.0.1:37714 rAddr=ocsp2.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=一元机场[香港 05 | 专线]
+10:51:16 INF [TCP] connected lAddr=127.0.0.1:37726 rAddr=ocsp2.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=一元机场[香港 05 | 专线]
+10:51:20 INF [TCP] connected lAddr=127.0.0.1:49612 rAddr=sb-ssl.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[香港 05 | 专线]
+10:51:21 INF [TCP] connected lAddr=127.0.0.1:49626 rAddr=o.pki.goog:80 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+10:51:28 INF [TCP] connected lAddr=127.0.0.1:49628 rAddr=lp.open.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:34 INF [TCP] connected lAddr=127.0.0.1:60352 rAddr=wx.mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:51:46 INF [TCP] connected lAddr=127.0.0.1:38222 rAddr=lp.open.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:52:03 INF [TCP] connected lAddr=127.0.0.1:37146 rAddr=lp.open.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:52:07 INF [TCP] connected lAddr=127.0.0.1:37158 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+10:52:07 INF [TCP] connected lAddr=127.0.0.1:37188 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+10:52:07 INF [TCP] connected lAddr=127.0.0.1:37172 rAddr=detectportal.firefox.com:80 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+10:52:21 INF [TCP] connected lAddr=127.0.0.1:38132 rAddr=lp.open.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:52:38 INF [TCP] connected lAddr=127.0.0.1:41648 rAddr=lp.open.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:52:56 INF [TCP] connected lAddr=127.0.0.1:43430 rAddr=lp.open.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:53:13 INF [TCP] connected lAddr=127.0.0.1:37346 rAddr=lp.open.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:53:30 INF [TCP] connected lAddr=127.0.0.1:45058 rAddr=lp.open.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:53:48 INF [TCP] connected lAddr=127.0.0.1:50126 rAddr=lp.open.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:54:05 INF [TCP] connected lAddr=127.0.0.1:58396 rAddr=lp.open.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:54:22 INF [TCP] connected lAddr=127.0.0.1:51348 rAddr=lp.open.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:54:40 INF [TCP] connected lAddr=127.0.0.1:52730 rAddr=lp.open.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:54:57 INF [TCP] connected lAddr=127.0.0.1:49154 rAddr=lp.open.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:55:15 INF [TCP] connected lAddr=127.0.0.1:42004 rAddr=lp.open.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:55:32 INF [TCP] connected lAddr=127.0.0.1:44572 rAddr=lp.open.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:55:49 INF [TCP] connected lAddr=127.0.0.1:58258 rAddr=lp.open.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:56:07 INF [TCP] connected lAddr=127.0.0.1:45438 rAddr=lp.open.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+10:56:18 INF [TCP] connected lAddr=127.0.0.1:58174 rAddr=profile.accounts.firefox.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+10:56:18 INF [TCP] connected lAddr=127.0.0.1:58176 rAddr=sync-1-us-west1-g.sync.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+10:56:18 INF [TCP] connected lAddr=127.0.0.1:58180 rAddr=api.accounts.firefox.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+10:56:25 INF [TCP] connected lAddr=127.0.0.1:55454 rAddr=lp.open.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:00:19 INF [TCP] connected lAddr=127.0.0.1:35374 rAddr=profile.accounts.firefox.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+11:00:19 INF [TCP] connected lAddr=127.0.0.1:35388 rAddr=sync-1-us-west1-g.sync.services.mozilla.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+11:00:21 INF [TCP] connected lAddr=127.0.0.1:35434 rAddr=ssl.ptlogin2.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:00:29 INF [TCP] connected lAddr=127.0.0.1:35438 rAddr=cube.weixinbridge.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+11:00:29 INF [TCP] connected lAddr=127.0.0.1:35442 rAddr=rl.mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:00:29 INF [TCP] connected lAddr=127.0.0.1:35450 rAddr=mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:00:29 INF [TCP] connected lAddr=127.0.0.1:35454 rAddr=rescdn.qqmail.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+11:00:30 INF [TCP] connected lAddr=127.0.0.1:35472 rAddr=cube.weixinbridge.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+11:00:30 INF [TCP] connected lAddr=127.0.0.1:35486 rAddr=wx.mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:00:30 INF [TCP] connected lAddr=127.0.0.1:35494 rAddr=wx.mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:00:30 INF [TCP] connected lAddr=127.0.0.1:35470 rAddr=rescdn.qqmail.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+11:00:30 INF [TCP] connected lAddr=127.0.0.1:58580 rAddr=rescdn.qqmail.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+11:00:30 INF [TCP] connected lAddr=127.0.0.1:58590 rAddr=cube.weixinbridge.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+11:00:30 INF [TCP] connected lAddr=127.0.0.1:58582 rAddr=cube.weixinbridge.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+11:00:30 INF [TCP] connected lAddr=127.0.0.1:58602 rAddr=cube.weixinbridge.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+11:00:31 INF [TCP] connected lAddr=127.0.0.1:58622 rAddr=cube.weixinbridge.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+11:00:33 INF [TCP] connected lAddr=127.0.0.1:58634 rAddr=js.aq.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:00:33 INF [TCP] connected lAddr=127.0.0.1:58650 rAddr=ocsp.digicert.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:00:34 INF [TCP] connected lAddr=127.0.0.1:58654 rAddr=open.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:00:34 INF [TCP] connected lAddr=127.0.0.1:58658 rAddr=graph.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:00:34 INF [TCP] connected lAddr=127.0.0.1:58666 rAddr=wx.mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:00:35 INF [TCP] connected lAddr=127.0.0.1:58670 rAddr=ssl.captcha.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:00:35 INF [TCP] connected lAddr=127.0.0.1:58676 rAddr=ssl.captcha.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:00:35 INF [TCP] connected lAddr=127.0.0.1:58686 rAddr=wx.mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:00:35 INF [TCP] connected lAddr=127.0.0.1:58692 rAddr=wx.mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:00:35 INF [TCP] connected lAddr=127.0.0.1:58696 rAddr=wx.mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:00:35 INF [TCP] connected lAddr=127.0.0.1:58720 rAddr=wx.mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:00:35 INF [TCP] connected lAddr=127.0.0.1:58732 rAddr=wx.mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:00:35 INF [TCP] connected lAddr=127.0.0.1:58706 rAddr=wx.mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:00:37 INF [TCP] connected lAddr=127.0.0.1:58750 rAddr=localhost.weixin.qq.com:13013 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:00:37 INF [TCP] connected lAddr=127.0.0.1:58804 rAddr=localhost.ptlogin2.qq.com:4301 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:00:37 INF [TCP] connected lAddr=127.0.0.1:58808 rAddr=qq-web-other.cdn-go.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:00:38 INF [TCP] connected lAddr=127.0.0.1:58814 rAddr=lp.open.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:00:38 INF [TCP] connected lAddr=127.0.0.1:58830 rAddr=ui.ptlogin2.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:00:38 INF [TCP] connected lAddr=127.0.0.1:58832 rAddr=report.qqweb.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:00:38 INF [TCP] connected lAddr=127.0.0.1:58852 rAddr=aegis.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:00:38 INF [TCP] connected lAddr=127.0.0.1:58864 rAddr=localhost.weixin.qq.com:13014 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:00:38 INF [TCP] connected lAddr=127.0.0.1:58874 rAddr=ocsp2.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=一元机场[香港 05 | 专线]
+11:00:38 INF [TCP] connected lAddr=127.0.0.1:58886 rAddr=wp.mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:00:38 INF [TCP] connected lAddr=127.0.0.1:58896 rAddr=localhost.weixin.qq.com:13015 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:00:38 INF [TCP] connected lAddr=127.0.0.1:58902 rAddr=localhost.ptlogin2.qq.com:4303 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:00:38 INF [TCP] connected lAddr=127.0.0.1:58918 rAddr=safebrowsing.googleapis.com:443 mode=rule rule=Domain(safebrowsing.googleapis.com) proxy=DIRECT
+11:00:38 INF [TCP] connected lAddr=127.0.0.1:58924 rAddr=localhost.weixin.qq.com:14013 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:00:38 INF [TCP] connected lAddr=127.0.0.1:58926 rAddr=localhost.weixin.qq.com:14014 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:00:39 INF [TCP] connected lAddr=127.0.0.1:58940 rAddr=localhost.ptlogin2.qq.com:4305 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:00:39 INF [TCP] connected lAddr=127.0.0.1:58932 rAddr=localhost.weixin.qq.com:14015 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:00:39 INF [TCP] connected lAddr=127.0.0.1:58950 rAddr=cube.weixinbridge.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+11:00:39 INF [TCP] connected lAddr=127.0.0.1:58956 rAddr=qq-web-legacy.cdn-go.cn:443 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:00:39 INF [TCP] connected lAddr=127.0.0.1:58962 rAddr=localhost.ptlogin2.qq.com:4307 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:00:40 INF [TCP] connected lAddr=127.0.0.1:58976 rAddr=cube.weixinbridge.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+11:00:40 INF [TCP] connected lAddr=127.0.0.1:58992 rAddr=localhost.ptlogin2.qq.com:4309 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:00:45 INF [TCP] connected lAddr=127.0.0.1:56682 rAddr=safebrowsing.googleapis.com:443 mode=rule rule=Domain(safebrowsing.googleapis.com) proxy=DIRECT
+11:00:48 INF [TCP] connected lAddr=127.0.0.1:56684 rAddr=gzc-dfsdown.mail.ftn.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:00:49 INF [TCP] connected lAddr=127.0.0.1:56686 rAddr=sb-ssl.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[香港 05 | 专线]
+11:00:55 INF [TCP] connected lAddr=127.0.0.1:43200 rAddr=lp.open.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:01:12 INF [TCP] connected lAddr=127.0.0.1:52280 rAddr=lp.open.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:01:30 INF [TCP] connected lAddr=127.0.0.1:34296 rAddr=lp.open.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:01:47 INF [TCP] connected lAddr=127.0.0.1:41082 rAddr=lp.open.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:02:05 INF [TCP] connected lAddr=127.0.0.1:42956 rAddr=lp.open.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:02:16 INF [TCP] connected lAddr=127.0.0.1:34584 rAddr=nlp-eb.cdn.bcebos.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+11:02:16 INF [TCP] connected lAddr=127.0.0.1:34546 rAddr=nlp-eb.cdn.bcebos.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+11:02:16 INF [TCP] connected lAddr=127.0.0.1:34632 rAddr=xlab.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+11:02:16 INF [TCP] connected lAddr=127.0.0.1:34644 rAddr=ocsp.globalsign.com:80 mode=rule rule=DomainSuffix(globalsign.com) proxy=一元机场[香港 05 | 专线]
+11:02:17 INF [TCP] connected lAddr=127.0.0.1:34660 rAddr=ocsp.sectigochina.com:80 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+11:02:17 INF [TCP] connected lAddr=127.0.0.1:34650 rAddr=ocsp.sectigochina.com:80 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+11:02:19 INF [TCP] connected lAddr=127.0.0.1:34676 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+11:02:19 INF [TCP] connected lAddr=127.0.0.1:34688 rAddr=dlswbr.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+11:02:19 INF [TCP] connected lAddr=127.0.0.1:34690 rAddr=dlswbr.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+11:02:19 INF [TCP] connected lAddr=127.0.0.1:34538 rAddr=yiyan.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+11:02:19 INF [TCP] connected lAddr=127.0.0.1:34548 rAddr=passport.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+11:02:19 INF [TCP] connected lAddr=127.0.0.1:34724 rAddr=yiyan.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+11:02:19 INF [TCP] connected lAddr=127.0.0.1:34736 rAddr=yiyan.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+11:02:19 INF [TCP] connected lAddr=127.0.0.1:34710 rAddr=yiyan.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+11:02:19 INF [TCP] connected lAddr=127.0.0.1:34730 rAddr=yiyan.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+11:02:19 INF [TCP] connected lAddr=127.0.0.1:34750 rAddr=yiyan.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+11:02:19 INF [TCP] connected lAddr=127.0.0.1:34760 rAddr=miao.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+11:02:19 INF [TCP] connected lAddr=127.0.0.1:34774 rAddr=sofire.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+11:02:20 INF [TCP] connected lAddr=127.0.0.1:34784 rAddr=ocsp.digicert.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:02:20 INF [TCP] connected lAddr=127.0.0.1:53846 rAddr=sfp.safe.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+11:02:20 INF [TCP] connected lAddr=127.0.0.1:53862 rAddr=himg.bdimg.com:443 mode=rule rule=DomainSuffix(bdimg.com) proxy=DIRECT
+11:02:20 INF [TCP] connected lAddr=127.0.0.1:53870 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+11:02:20 INF [TCP] connected lAddr=127.0.0.1:53878 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+11:02:20 INF [TCP] connected lAddr=127.0.0.1:53866 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+11:02:21 INF [TCP] connected lAddr=127.0.0.1:53894 rAddr=ocsp.digicert.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:02:21 INF [TCP] connected lAddr=127.0.0.1:53904 rAddr=eb118-file.cdn.bcebos.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+11:02:21 INF [TCP] connected lAddr=127.0.0.1:53930 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+11:02:21 INF [TCP] connected lAddr=127.0.0.1:53920 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+11:02:21 INF [TCP] connected lAddr=127.0.0.1:53936 rAddr=eb118-file.cdn.bcebos.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+11:02:22 INF [TCP] connected lAddr=127.0.0.1:53948 rAddr=lp.open.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:02:40 INF [TCP] connected lAddr=127.0.0.1:59512 rAddr=lp.open.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:02:44 INF [TCP] connected lAddr=127.0.0.1:59516 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+11:02:58 INF [TCP] connected lAddr=127.0.0.1:48876 rAddr=lp.open.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:03:07 INF [TCP] connected lAddr=127.0.0.1:47950 rAddr=sofire.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+11:03:07 INF [TCP] connected lAddr=127.0.0.1:47970 rAddr=miao.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+11:03:08 INF [TCP] connected lAddr=127.0.0.1:47956 rAddr=miao.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+11:03:09 INF [TCP] connected lAddr=127.0.0.1:47986 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+11:03:09 INF [TCP] connected lAddr=127.0.0.1:47974 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+11:03:16 INF [TCP] connected lAddr=127.0.0.1:41660 rAddr=lp.open.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:03:34 INF [TCP] connected lAddr=127.0.0.1:35302 rAddr=lp.open.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:03:34 INF [TCP] connected lAddr=127.0.0.1:35308 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+11:03:40 INF [TCP] connected lAddr=127.0.0.1:35380 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+11:03:40 INF [TCP] connected lAddr=127.0.0.1:35394 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+11:03:40 INF [TCP] connected lAddr=127.0.0.1:35364 rAddr=yiyan.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+11:03:40 INF [TCP] connected lAddr=127.0.0.1:35350 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+11:03:40 INF [TCP] connected lAddr=127.0.0.1:35322 rAddr=yiyan.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+11:03:40 INF [TCP] connected lAddr=127.0.0.1:35320 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+11:03:40 INF [TCP] connected lAddr=127.0.0.1:35408 rAddr=yiyan.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+11:03:40 INF [TCP] connected lAddr=127.0.0.1:35338 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+11:03:44 INF [TCP] connected lAddr=127.0.0.1:35256 rAddr=miao.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+11:03:52 INF [TCP] connected lAddr=127.0.0.1:41888 rAddr=lp.open.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:04:10 INF [TCP] connected lAddr=127.0.0.1:60384 rAddr=lp.open.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:04:28 INF [TCP] connected lAddr=127.0.0.1:38588 rAddr=lp.open.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:04:47 INF [TCP] connected lAddr=127.0.0.1:44474 rAddr=lp.open.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:04:53 INF [TCP] connected lAddr=127.0.0.1:58026 rAddr=szfilehelper.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:04:53 INF [TCP] connected lAddr=127.0.0.1:58000 rAddr=szfilehelper.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:04:53 INF [TCP] connected lAddr=127.0.0.1:58040 rAddr=aegis.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:04:53 INF [TCP] connected lAddr=127.0.0.1:58050 rAddr=ocsp.digicert.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:04:53 INF [TCP] connected lAddr=127.0.0.1:58048 rAddr=ocsp.digicert.cn:80 mode=rule rule=DomainSuffix(cn) proxy=DIRECT
+11:04:54 INF [TCP] connected lAddr=127.0.0.1:58064 rAddr=szfilehelper.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:04:54 INF [TCP] connected lAddr=127.0.0.1:58070 rAddr=login.wx2.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:04:54 INF [TCP] connected lAddr=127.0.0.1:58086 rAddr=login.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:05:05 INF [TCP] connected lAddr=127.0.0.1:33060 rAddr=lp.open.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:05:20 INF [TCP] connected lAddr=127.0.0.1:58194 rAddr=sofire.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+11:05:21 INF [TCP] connected lAddr=127.0.0.1:58202 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+11:05:23 INF [TCP] connected lAddr=127.0.0.1:58208 rAddr=lp.open.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:05:41 INF [TCP] connected lAddr=127.0.0.1:39502 rAddr=lp.open.weixin.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:05:41 INF [TCP] connected lAddr=127.0.0.1:39506 rAddr=res.wx.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:05:54 INF [TCP] connected lAddr=127.0.0.1:38960 rAddr=ssl.ptlogin2.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:05:58 INF [TCP] connected lAddr=127.0.0.1:38972 rAddr=cube.weixinbridge.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+11:05:58 INF [TCP] connected lAddr=127.0.0.1:38986 rAddr=mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:05:58 INF [TCP] connected lAddr=127.0.0.1:39002 rAddr=cube.weixinbridge.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+11:05:58 INF [TCP] connected lAddr=127.0.0.1:39014 rAddr=wx.mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:05:58 INF [TCP] connected lAddr=127.0.0.1:39026 rAddr=wx.mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:05:58 INF [TCP] connected lAddr=127.0.0.1:39028 rAddr=wx.mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:05:58 INF [TCP] connected lAddr=127.0.0.1:39044 rAddr=wx.mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:05:58 INF [TCP] connected lAddr=127.0.0.1:39050 rAddr=wx.mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:05:58 INF [TCP] connected lAddr=127.0.0.1:39066 rAddr=wx.mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:06:00 INF [TCP] connected lAddr=127.0.0.1:59068 rAddr=gzc-dfsdown.mail.ftn.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:06:00 INF [TCP] connected lAddr=127.0.0.1:59086 rAddr=gzc-dfsdown.mail.ftn.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:06:00 INF [TCP] connected lAddr=127.0.0.1:59078 rAddr=gzc-dfsdown.mail.ftn.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:06:00 INF [TCP] connected lAddr=127.0.0.1:59092 rAddr=gzc-dfsdown.mail.ftn.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:06:00 INF [TCP] connected lAddr=127.0.0.1:59108 rAddr=gzc-dfsdown.mail.ftn.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:06:00 INF [TCP] connected lAddr=127.0.0.1:59116 rAddr=gzc-dfsdown.mail.ftn.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:06:06 INF [TCP] connected lAddr=127.0.0.1:59122 rAddr=sb-ssl.google.com:443 mode=rule rule=DomainKeyword(google) proxy=一元机场[香港 05 | 专线]
+11:10:32 INF [TCP] connected lAddr=127.0.0.1:56782 rAddr=hm.baidu.com:443 mode=rule rule=DomainKeyword(baidu) proxy=DIRECT
+11:10:32 INF [TCP] connected lAddr=127.0.0.1:56794 rAddr=safebrowsing.googleapis.com:443 mode=rule rule=Domain(safebrowsing.googleapis.com) proxy=DIRECT
+11:10:33 INF [TCP] connected lAddr=127.0.0.1:56796 rAddr=ssl.ptlogin2.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:15:21 INF [TCP] connected lAddr=127.0.0.1:53304 rAddr=wx.mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:15:30 INF [TCP] connected lAddr=127.0.0.1:53316 rAddr=gzc-dfsup.mail.ftn.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:15:30 INF [TCP] connected lAddr=127.0.0.1:50890 rAddr=gzc-dfsup.mail.ftn.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:15:30 INF [TCP] connected lAddr=127.0.0.1:50894 rAddr=gzc-dfsup.mail.ftn.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:15:30 INF [TCP] connected lAddr=127.0.0.1:50900 rAddr=gzc-dfsup.mail.ftn.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:15:30 INF [TCP] connected lAddr=127.0.0.1:50908 rAddr=gzc-dfsup.mail.ftn.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:15:31 INF [TCP] connected lAddr=127.0.0.1:50916 rAddr=cube.weixinbridge.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+11:15:38 INF [TCP] connected lAddr=127.0.0.1:50918 rAddr=wx.mail.qq.com:443 mode=rule rule=DomainSuffix(qq.com) proxy=DIRECT
+11:15:40 INF [TCP] connected lAddr=127.0.0.1:50932 rAddr=cube.weixinbridge.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+11:15:40 INF [TCP] connected lAddr=127.0.0.1:50920 rAddr=cube.weixinbridge.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
+11:15:40 INF [TCP] connected lAddr=127.0.0.1:50934 rAddr=cube.weixinbridge.com:443 mode=rule rule=Match() proxy=一元机场[香港 05 | 专线]
