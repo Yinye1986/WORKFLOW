@@ -20,5 +20,3 @@ alias lld="lsblk"
 alias vim="nvim"
 alias t="tmux"
 alias fm="yazi"
-
-export PATH=$PATH:/home/chris/4-PROJECT/stm32DevEnv/gcc-arm-none-eabi/bin

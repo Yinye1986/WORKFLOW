@@ -2,7 +2,7 @@
 
 pacman -Syy
 
-pacman -Sy amd-ucode sudo neovim --noconfirm
+pacman -S amd-ucode mesa xf86-video-amdgpu vulkan-radeon libva-mesa-driver mesa-vdpau sudo neovim --noconfirm
 
 useradd -m chris
 usermod -aG wheel chris
@@ -56,13 +56,12 @@ while true; do
 	fi
 done
 
-grub-install --target=x86_64-efi --efi-directory=/efi --bootloader-id=GRUB
-grub-mkconfig -o /efi/grub/grub.cfg
+grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
+grub-mkconfig -o /boot/grub/grub.cfg
 
-#---
-pacman -Sy base-devel curl wget git --noconfirm #basic module
-pacman -Sy iwd dhcpcd --noconfirm               # 网络
-#---
+pacman -S base-devel curl wget git --noconfirm #basic module
+pacman -S iwd dhcpcd --noconfirm               # 网络
+
 LOADKEYS_SERVICE_FILE_PATH="/etc/systemd/system/loadkeysColemak.service"
 
 echo "[Unit]

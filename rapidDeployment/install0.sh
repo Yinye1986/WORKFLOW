@@ -17,7 +17,8 @@ echo "This Is Your List Of Disk"
 
 lsblk
 
-read -p "Input Your Disk '/dev/sdx': " yourdisk
+read -p "Input Your Disk '/dev/xxxx': " yourdisk
+
 fdisk $yourdisk
 
 while true; do
@@ -27,11 +28,11 @@ while true; do
 	fi
 done
 
-mkfs.fat -F 32 ${yourdisk}1
-mkswap ${yourdisk}2
-swapon ${yourdisk}2
-mkfs.ext4 ${yourdisk}3
-mkfs.ext4 ${yourdisk}4
+mkfs.fat -F 32 ${yourdisk}p1
+mkswap ${yourdisk}p2
+swapon ${yourdisk}p2
+mkfs.ext4 ${yourdisk}p3
+mkfs.ext4 ${yourdisk}p4
 
 echo "Please Configure Mirrorlist"
 
@@ -44,14 +45,14 @@ while true; do
 	fi
 done
 
-mount ${yourdisk}3 /mnt
-mount --mkdir ${yourdisk}1 /mnt/efi
-mount --mkdir ${yourdisk}4 /mnt/home
+mount ${yourdisk}p3 /mnt
+mount --mkdir ${yourdisk}p1 /mnt/boot
+mount --mkdir ${yourdisk}p4 /mnt/home
 
 pacstrap -K /mnt base linux linux-firmware
 
 genfstab -U /mnt >> /mnt/etc/fstab
 
-cp /root/WORKFLOW /mnt/opt/
+cp -rf /root/WORKFLOW /mnt/opt/
 
 arch-chroot /mnt

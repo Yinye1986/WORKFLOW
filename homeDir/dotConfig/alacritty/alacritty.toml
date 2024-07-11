@@ -48,7 +48,7 @@ thickness        = 0.15 # 可以替换为你喜欢的厚度
 # 例如：
 [env]
 WTERM                 = "xterm-256color" # 指定终端类型为256色
-INIT_X11_SCALE_FACTOR = "1.0" # 缩放因子
+INIT_X11_SCALE_FACTOR = "0.5" # 缩放因子
 
 [window]
 dimensions      = { columns = 80,lines = 36 } #窗口尺寸；行/列；最小2；设为0则自动配置

@@ -26,7 +26,7 @@ ln -sf $HOMEDIR/WORKFLOW/homedir/dotconfig/clash $HOMEDIR/.config/clash
 
 # for admin
 
-mkdir $ROOTHOMEDIR/.config
+# mkdir $ROOTHOMEDIR/.config
 
-ln -sf $ROOTHOMEDIR/WORKFLOW/homeDir/dotConfig/yazi $ROOTHOMEDIR/.config/yazi
-ln -sf $ROOTHOMEDIR/WORKFLOW/homedir/dotconfig/nvim $ROOTHOMEDIR/.config/nvim
+# ln -sf $ROOTHOMEDIR/WORKFLOW/homeDir/dotConfig/yazi $ROOTHOMEDIR/.config/yazi
+# ln -sf $ROOTHOMEDIR/WORKFLOW/homedir/dotconfig/nvim $ROOTHOMEDIR/.config/nvim
