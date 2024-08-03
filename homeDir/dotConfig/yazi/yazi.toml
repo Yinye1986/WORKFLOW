@@ -66,6 +66,8 @@ rules = [
 	{ mime = "application/json", use = [ "edit", "reveal" ] },
 	{ mime = "*/javascript",     use = [ "edit", "reveal" ] },
 
+    { mime = "application/x-wine-extension-ini", use = [ "edit", "reveal" ] },
+
 	{ mime = "*", use = [ "open", "reveal" ] },
 ]
 

@@ -1,11 +1,12 @@
 #!/bin/bash
 
-xrandr --output HDMI-1 --auto &
+xrandr --output HDMI-A-0 --auto &
 
+feh --bg-fill ~/Z-TMP/backgrounds/bocchiTheRock/Yamada_Ryo.png &
 
-feh --bg-fill ~/5-TMP/backgrounds/bocchiTheRock/Yamada_Ryo.png &
+# picom &
 
-# /bin/bash /home/chris/.dwm/dwm-status.sh &
+# /bin/bash /home/chris/.dwm/dwm-status/status.sh &
 
 xclip -selection clipboard &
 
@@ -17,3 +18,4 @@ usb_modeswitch -KW -v 0bda -p 1a2b
 
 setxkbmap us colemak
 xmodmap ~/.Xmodmap
+

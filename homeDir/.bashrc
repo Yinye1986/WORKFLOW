@@ -9,6 +9,8 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
+udisksctl mount -b /dev/nvme1n1p1 /home/chris/1-WORKSPACE
+
 # Start
 alias sudo="sudo "
 alias :q="exit"
