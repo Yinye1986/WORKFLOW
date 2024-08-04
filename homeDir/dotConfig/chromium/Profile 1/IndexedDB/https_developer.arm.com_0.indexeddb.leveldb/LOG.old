@@ -1,0 +1,6 @@
+2024/07/28-20:56:39.103 4eb Creating DB /home/chris/.config/chromium/Profile 1/IndexedDB/https_developer.arm.com_0.indexeddb.leveldb since it was missing.
+2024/07/28-20:56:39.106 4eb Reusing MANIFEST /home/chris/.config/chromium/Profile 1/IndexedDB/https_developer.arm.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/07/28-20:56:40.030 4ec Level-0 table #5: started
+2024/07/28-20:56:40.031 4ec Level-0 table #5: 591 bytes OK
+2024/07/28-20:56:40.033 4ec Delete type=0 #3
+2024/07/28-20:56:40.033 4ec Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

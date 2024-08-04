@@ -1,0 +1,7 @@
+2024/07/15-21:15:48.818 363 Reusing MANIFEST /home/chris/.config/chromium/Profile 1/IndexedDB/https_zh.singlelogin.re_0.indexeddb.leveldb/MANIFEST-000001
+2024/07/15-21:15:48.818 363 Recovering log #3
+2024/07/15-21:15:48.818 363 Reusing old log /home/chris/.config/chromium/Profile 1/IndexedDB/https_zh.singlelogin.re_0.indexeddb.leveldb/000003.log 
+2024/07/15-21:45:27.665 364 Level-0 table #5: started
+2024/07/15-21:45:27.666 364 Level-0 table #5: 4042 bytes OK
+2024/07/15-21:45:27.668 364 Delete type=0 #3
+2024/07/15-21:45:27.668 364 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,6 @@
+2024/08/04-10:34:23.135 4 Reusing MANIFEST /home/chris/.config/chromium/Profile 1/Local Storage/leveldb/MANIFEST-000001
+2024/08/04-10:34:23.140 4 Recovering log #866
+2024/08/04-10:34:23.140 4 Reusing old log /home/chris/.config/chromium/Profile 1/Local Storage/leveldb/000866.log 
+2024/08/04-10:35:26.582 4 Level-0 table #870: started
+2024/08/04-10:35:26.587 4 Level-0 table #870: 44565 bytes OK
+2024/08/04-10:35:26.590 4 Delete type=0 #866

@@ -1,0 +1,124 @@
+{
+   "checksum": "99a6578810c3ad83ffce152ad5163287",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13365189113170914",
+            "date_last_used": "13365846256942832",
+            "guid": "cb4ac63c-7302-4897-9626-7200cd80b929",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "ChatGPT",
+            "type": "url",
+            "url": "https://chatgpt.com/"
+         }, {
+            "date_added": "13365232337559724",
+            "date_last_used": "13365524736771685",
+            "guid": "ded15516-d27e-46ef-9801-0c63f8678298",
+            "id": "7",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Z-Library – 世界上最大的电子图书馆。自由访问知识和文化。",
+            "type": "url",
+            "url": "https://zh.singlelogin.re/"
+         }, {
+            "date_added": "13365447009977927",
+            "date_last_used": "13366634275952603",
+            "guid": "92a6fd6f-4fa8-481f-a23f-5dc5e80e5400",
+            "id": "9",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Gnome-look.org",
+            "type": "url",
+            "url": "https://www.gnome-look.org/browse/"
+         }, {
+            "date_added": "13366197564269486",
+            "date_last_used": "13366533535727829",
+            "guid": "03c72da7-9236-4c67-97a7-0b940fdcca6a",
+            "id": "11",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "3.5inch IPS SPI Module ST7796 - LCD wiki",
+            "type": "url",
+            "url": "http://www.lcdwiki.com/zh/3.5inch_IPS_SPI_Module_ST7796"
+         }, {
+            "date_added": "13366383393749030",
+            "date_last_used": "13366445013411431",
+            "guid": "200f0631-2943-476b-b4a1-b7adf53af89a",
+            "id": "13",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "ST7796U",
+            "type": "url",
+            "url": "https://focuslcds.com/wp-content/uploads/Drivers/ST7796U.pdf"
+         }, {
+            "date_added": "13366653975954796",
+            "date_last_used": "13366721794670097",
+            "guid": "069acf24-47f6-4197-96c1-9f70bca0ca8f",
+            "id": "15",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "基于Linux系统的stm32f103开发构建_stm32f103linux-CSDN博客",
+            "type": "url",
+            "url": "https://blog.csdn.net/m0_62478299/article/details/140296756"
+         }, {
+            "date_added": "13366654022734976",
+            "date_last_used": "13366816477860389",
+            "guid": "c5ceb5ee-a886-4a20-a7dd-57552991ece6",
+            "id": "16",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "crezaol の 博客",
+            "type": "url",
+            "url": "http://detail.pub/posts/Linux%E4%B8%8BSTM32F103%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-2"
+         }, {
+            "date_added": "13366962770906821",
+            "date_last_used": "0",
+            "guid": "fae048bc-ce49-4845-9aa5-96273e72cc04",
+            "id": "18",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "ChatGPT",
+            "type": "url",
+            "url": "https://chatgpt.com/c/8efb03d9-733b-4b9d-a6e8-21496b130b9d"
+         } ],
+         "date_added": "13365189064204044",
+         "date_last_used": "0",
+         "date_modified": "13366962770906821",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "书签栏",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13365189064204045",
+         "date_last_used": "0",
+         "date_modified": "13365189113170914",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "其他书签",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13365189064204046",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "移动设备书签",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

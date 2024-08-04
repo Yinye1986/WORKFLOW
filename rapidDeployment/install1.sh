@@ -2,7 +2,7 @@
 
 pacman -Syy
 
-pacman -S amd-ucode mesa xf86-video-amdgpu vulkan-radeon libva-mesa-driver mesa-vdpau sudo neovim --noconfirm
+pacman -S amd-ucode mesa mesa-utils xf86-video-amdgpu vulkan-radeon sudo neovim --noconfirm
 
 useradd -m chris
 usermod -aG wheel chris
@@ -56,7 +56,8 @@ while true; do
 	fi
 done
 
-grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
+grub-install --target=x86_64-efi --efi-directory=/esp --bootloader-id=GRUB
+# sudo os-prober
 grub-mkconfig -o /boot/grub/grub.cfg
 
 pacman -S base-devel curl wget git --noconfirm #basic module
