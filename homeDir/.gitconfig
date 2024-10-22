@@ -1,0 +1,7 @@
+[user]
+	name = Chris Hung
+	email = yinye1986@gmail.com
+[core]
+	editor = nvim
+[init]
+	defaultBranch = main
