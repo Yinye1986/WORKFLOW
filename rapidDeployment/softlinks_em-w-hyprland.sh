@@ -1,7 +1,5 @@
 #!/bin/bash
 
-mv /opt/WORKFLOW /home/chris/WORKFLOW
-
 ln -sf /home/chris/WORKFLOW/homeDir/.bash_profile /home/chris/.bash_profile
 ln -sf /home/chris/WORKFLOW/homeDir/.bashrc /home/chris/.bashrc
 ln -sf /home/chris/WORKFLOW/homeDir/.gitconfig /home/chris/.gitconfig
@@ -18,11 +16,12 @@ ln -sf /home/chris/WORKFLOW/homeDir/dotConfig/fcitx5 /home/chris/.config/fcitx5
 ln -sf /home/chris/WORKFLOW/homeDir/dotConfig/rofi /home/chris/.config/rofi
 ln -sf /home/chris/WORKFLOW/homeDir/dotConfig/hypr /home/chris/.config/hypr
 ln -sf /home/chris/WORKFLOW/homeDir/dotConfig/waybar /home/chris/.config/waybar
+
 ssh-keygen -t ed25519 -C "yinye1986@gmail.com"
 
 # for admin
 
-sudo mkdir /root/.config
+sudo mkdir -p /root/.config
 
 sudo ln -sf /home/chris/WORKFLOW/homeDir/dotConfig/yazi /root/.config/yazi
 sudo ln -sf /home/chris/WORKFLOW/homeDir/dotConfig/nvim_clear /root/.config/nvim

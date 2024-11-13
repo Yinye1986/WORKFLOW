@@ -102,3 +102,4 @@ echo "INPUT_METHOD=fcitx" >> /etc/environment
 
 cp -a /opt/WORKFLOW /home/chris/WORKFLOW
 
+
