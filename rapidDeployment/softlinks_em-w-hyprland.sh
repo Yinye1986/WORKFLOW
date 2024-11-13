@@ -18,6 +18,7 @@ ln -sf /home/chris/WORKFLOW/homeDir/dotConfig/fcitx5 /home/chris/.config/fcitx5
 ln -sf /home/chris/WORKFLOW/homeDir/dotConfig/rofi /home/chris/.config/rofi
 ln -sf /home/chris/WORKFLOW/homeDir/dotConfig/hypr /home/chris/.config/hypr
 ln -sf /home/chris/WORKFLOW/homeDir/dotConfig/waybar /home/chris/.config/waybar
+ssh-keygen -t ed25519 -C "yinye1986@gmail.com"
 
 # for admin
 

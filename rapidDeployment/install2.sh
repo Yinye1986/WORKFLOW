@@ -13,7 +13,7 @@ if [ "$answer" = "YES" ]; then
 	sudo pacman -S kitty alacritty fish yazi clash rofi-wayland --noconfirm                      # 必备组件
 	sudo pacman -S htop fastfetch --noconfirm # 仪表盘
 
-    sudo pacman -S fcitx5-im fcitx5-chinese-addons fcitx5-nord --noconfirm # 输入法全家桶
+    # sudo pacman -S fcitx5-im fcitx5-chinese-addons fcitx5-nord --noconfirm # 输入法全家桶 install in install2.sh
 
     ssh-keygen -t ed25519 -C "yinye1986@gmail.com"
 else

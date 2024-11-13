@@ -1,12 +1,3 @@
-# Alacritty配置文件使用TOML格式，你可以在这里找到格式规范：https://toml.io/en/v1.0.0
-
-# GENERAL部分记录了配置文件的根级别
-
-# import字段用于导入额外的配置文件。导入的顺序是按照列表中的顺序，跳过所有缺失的文件，最后加载导入的文件
-# 所有的导入必须是以/开始的绝对路径，或者是以~/开始的相对于用户主目录的路径
-import = [
-    "~/.config/alacritty/themes/gruvbox_dark.toml"
-]
 
 [scrolling]
 history    = 10000 # 滚动回溯缓冲区，不能超过100000；如果你想禁用滚动，可以设置为0。
@@ -14,7 +5,7 @@ multiplier = 3 # 每次输入滚动增量时滚动的行数
 
 # shell字段可以设置为你喜欢的shell的路径，例如/bin/zsh
 # shell.args中的条目将作为参数传递给shell
-[shell]
+[terminal.shell]
 program = "/bin/fish"
 args    = [ "-l"]
 
@@ -110,4 +101,15 @@ bindings = [
     { key = "-", mods = "Control", action = "DecreaseFontSize" },
     { key = "y", mods = "Control", action = "Copy" },
     { key = "p", mods = "Control", action = "Paste" },
+]
+
+[general]
+# Alacritty配置文件使用TOML格式，你可以在这里找到格式规范：https://toml.io/en/v1.0.0
+
+# GENERAL部分记录了配置文件的根级别
+
+# import字段用于导入额外的配置文件。导入的顺序是按照列表中的顺序，跳过所有缺失的文件，最后加载导入的文件
+# 所有的导入必须是以/开始的绝对路径，或者是以~/开始的相对于用户主目录的路径
+import = [
+    "~/.config/alacritty/themes/gruvbox_dark.toml"
 ]

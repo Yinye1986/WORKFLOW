@@ -26,6 +26,7 @@ alias hexo='npx hexo'
 
 # My Apps
 alias draw.io='/home/chris/myApps/draw.io/drawio'
+alias d='go run main.go --alac-max 192000 --select'
 
 function fm
 	set tmp (mktemp -t "yazi-cwd.XXXXXX")

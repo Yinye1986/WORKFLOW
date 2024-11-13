@@ -83,4 +83,20 @@ systemctl enable dhcpcd
 systemctl enable bluetooth
 systemctl enable sshd
 
-# Tips
+# to simplify installation, i have to confuse the script
+## yay
+export GO111MODULE=on
+export GOPROXY=https://goproxy.cn
+git clone https://aur.archlinux.org/yay.git /home/chris/X-myApplications/yay
+cd /home/chris/myApplications/yay
+makepkg -si
+
+## fcitx5
+sudo pacman -S fcitx5-im fcitx5-chinese-addons fcitx5-nord --noconfirm # 输入法全家桶
+echo "QT_IM_MODULE=fcitx" >> /etc/environment
+echo "GTK_IM_MODULE=fcitx" >> /etc/environment
+echo "XMODIFIERS=@im=fcitx" >> /etc/environment
+echo "GLFW_IM_MODULE=fcitx" >> /etc/environment
+echo "SDL_IM_MODULE=fcitx" >> /etc/environment
+echo "INPUT_METHOD=fcitx" >> /etc/environment
+
