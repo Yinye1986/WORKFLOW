@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# pacman -Syy
+pacman -Syy
 
-pacman -S amd-ucode mesa mesa-utils xf86-video-amdgpu vulkan-radeon sudo neovim fish --noconfirm
+pacman -S amd-ucode mesa mesa-utils xf86-video-amdgpu vulkan-radeon libva-mesa-driver mesa-vdpau sudo fish --noconfirm
 
 useradd -m chris
 usermod -aG wheel chris
@@ -44,7 +44,7 @@ echo "127.0.0.1    localhost" >> /etc/hosts
 echo "::1          localhost" >> /etc/hosts
 echo "127.0.1.1    hcz.localdomain hcz" >> /etc/hosts
 
-pacman -S grub efibootmgr os-prober--noconfirm # os-prober
+pacman -S grub efibootmgr --noconfirm # os-prober
 
 echo "Please Uncomment The Last Line"
 
@@ -59,13 +59,21 @@ done
 
 grub-install --target=x86_64-efi --efi-directory=/esp --bootloader-id=GRUB
 
-os-prober
+# os-prober
 
 grub-mkconfig -o /boot/grub/grub.cfg
 
-pacman -S base-devel curl wget git usb_modeswitch usbutils --noconfirm #basic module
+pacman -S base-devel unzip p7zip curl wget openssh git usb_modeswitch usbutils # basic module
 
-pacman -S iwd dhcpcd bluez bluez-utils blueman openssh --noconfirm # iwd
+pacman -S iwd dhcpcd bluez bluez-utils blueman # bluetooth internet
+
+pacman -S hyprland hyprpaper xdg-desktop-portal-hyprland xorg-xwayland qt6-wayland qt5-wayland alacritty waybar rofi-wayland # wm wayland兼容层
+pacman -S pipewire pipewire-alsa pipewire-pulse pipewire-jack pavucontrol wireplumber # 音频全家桶
+pacman -S wl-clipboard cliphist grim slurp # 剪切板支持,剪切板,截图,选取
+
+pacman -S ttf-hack ttf-hack-nerd wqy-zenhei wqy-microhei # 字体
+pacman -S kitty yazi clash # 必备组件
+pacman -S htop fastfetch # 仪表盘
 
 LOADKEYS_SERVICE_FILE_PATH="/etc/systemd/system/loadkeysColemak.service"
 echo "[Unit]
@@ -83,14 +91,6 @@ systemctl enable dhcpcd
 systemctl enable bluetooth
 systemctl enable sshd
 
-# to simplify installation, i have to confuse the script
-## yay
-export GO111MODULE=on
-export GOPROXY=https://goproxy.cn
-git clone https://aur.archlinux.org/yay.git /home/chris/X-myApplications/yay
-cd /home/chris/myApplications/yay
-makepkg -si
-
 ## fcitx5
 sudo pacman -S fcitx5-im fcitx5-chinese-addons fcitx5-nord --noconfirm # 输入法全家桶
 echo "QT_IM_MODULE=fcitx" >> /etc/environment
@@ -99,4 +99,6 @@ echo "XMODIFIERS=@im=fcitx" >> /etc/environment
 echo "GLFW_IM_MODULE=fcitx" >> /etc/environment
 echo "SDL_IM_MODULE=fcitx" >> /etc/environment
 echo "INPUT_METHOD=fcitx" >> /etc/environment
+
+cp -a /opt/WORKFLOW /home/chris/WORKFLOW
 

@@ -1,10 +1,10 @@
 #!/bin/bash
 
+mv /opt/WORKFLOW /home/chris/WORKFLOW
+
 ln -sf /home/chris/WORKFLOW/homeDir/.bash_profile /home/chris/.bash_profile
 ln -sf /home/chris/WORKFLOW/homeDir/.bashrc /home/chris/.bashrc
 ln -sf /home/chris/WORKFLOW/homeDir/.gitconfig /home/chris/.gitconfig
-
-ln -sf /home/chris/WORKFLOW/homeDir/.sunpinyin /home/chris/.sunpinyin
 
 mkdir /home/chris/.config
 
@@ -25,5 +25,5 @@ ssh-keygen -t ed25519 -C "yinye1986@gmail.com"
 sudo mkdir /root/.config
 
 sudo ln -sf /home/chris/WORKFLOW/homeDir/dotConfig/yazi /root/.config/yazi
-sudo ln -sf /home/chris/WORKFLOW/homedir/dotConfig/nvim_clear /root/.config/nvim
+sudo ln -sf /home/chris/WORKFLOW/homeDir/dotConfig/nvim_clear /root/.config/nvim
 
