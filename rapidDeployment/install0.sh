@@ -37,7 +37,7 @@ pacstrap -K /mnt base linux linux-firmware
 
 genfstab -U /mnt >> /mnt/etc/fstab
 
-cp -a /WORKFLOW /opt/WORKFLOW
+mv ./WORKFLOW /mnt/opt/
 arch-chroot /mnt
 
 

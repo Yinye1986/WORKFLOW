@@ -100,6 +100,6 @@ echo "GLFW_IM_MODULE=fcitx" >> /etc/environment
 echo "SDL_IM_MODULE=fcitx" >> /etc/environment
 echo "INPUT_METHOD=fcitx" >> /etc/environment
 
-cp -a /opt/WORKFLOW /home/chris/WORKFLOW
+mv /opt/WORKFLOW /home/chris/
 
 
