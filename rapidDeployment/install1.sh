@@ -63,7 +63,7 @@ grub-install --target=x86_64-efi --efi-directory=/esp --bootloader-id=GRUB
 
 grub-mkconfig -o /boot/grub/grub.cfg
 
-pacman -S base-devel unzip p7zip curl wget openssh git usb_modeswitch usbutils # basic module
+pacman -S base-devel unzip unarchiver p7zip curl wget aria2 openssh git usb_modeswitch usbutils # basic module
 
 pacman -S iwd dhcpcd bluez bluez-utils blueman # bluetooth internet
 
@@ -72,7 +72,7 @@ pacman -S pipewire pipewire-alsa pipewire-pulse pipewire-jack pavucontrol wirepl
 pacman -S wl-clipboard cliphist grim slurp # 剪切板支持,剪切板,截图,选取
 
 pacman -S ttf-hack ttf-hack-nerd wqy-zenhei wqy-microhei # 字体
-pacman -S kitty yazi clash # 必备组件
+pacman -S yazi clash lazygit fzf # 必备组件
 pacman -S htop fastfetch # 仪表盘
 
 LOADKEYS_SERVICE_FILE_PATH="/etc/systemd/system/loadkeysColemak.service"
@@ -100,6 +100,5 @@ echo "GLFW_IM_MODULE=fcitx" >> /etc/environment
 echo "SDL_IM_MODULE=fcitx" >> /etc/environment
 echo "INPUT_METHOD=fcitx" >> /etc/environment
 
-mv /opt/WORKFLOW /home/chris/
-
+cp -a /opt/WORKFLOW /home/chris/
 
