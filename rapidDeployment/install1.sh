@@ -92,13 +92,13 @@ systemctl enable bluetooth
 systemctl enable sshd
 
 ## fcitx5
-sudo pacman -S fcitx5-im fcitx5-chinese-addons fcitx5-nord --noconfirm # 输入法全家桶
-echo "QT_IM_MODULE=fcitx" >> /etc/environment
-echo "GTK_IM_MODULE=fcitx" >> /etc/environment
-echo "XMODIFIERS=@im=fcitx" >> /etc/environment
-echo "GLFW_IM_MODULE=fcitx" >> /etc/environment
-echo "SDL_IM_MODULE=fcitx" >> /etc/environment
-echo "INPUT_METHOD=fcitx" >> /etc/environment
+sudo pacman -S ibus libibus libnotify ibus-rime # 输入法全家桶
+echo "QT_IM_MODULE=ibus" >> /etc/environment
+echo "GTK_IM_MODULE=ibus" >> /etc/environment
+echo "XMODIFIERS=@im=ibus" >> /etc/environment
+echo "GLFW_IM_MODULE=ibus" >> /etc/environment
+echo "SDL_IM_MODULE=ibus" >> /etc/environment
+echo "INPUT_METHOD=ibus" >> /etc/environment
 
 cp -a /opt/WORKFLOW /home/chris/
 

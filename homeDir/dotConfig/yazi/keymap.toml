@@ -134,6 +134,7 @@ keymap = [
 	{ on = [ "g", "c" ],       run = "cd ~/WORKFLOW/homeDir/dotConfig/",     desc = "Go to the config directory" },
 	{ on = [ "g", "d" ],       run = "cd ~/Downloads",   desc = "Go to the downloads directory" },
 	{ on = [ "g", "t" ],       run = "cd /tmp",          desc = "Go to the temporary directory" },
+	{ on = [ "g", "w" ],       run = "cd ~/Notes/OS/src", desc = "Go to the temporary directory" },
 	{ on = [ "g", "<Space>" ], run = "cd --current", desc = "Go to a directory interactively" },
 
 	# Help
