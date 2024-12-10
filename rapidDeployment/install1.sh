@@ -71,7 +71,7 @@ pacman -S hyprland hyprpaper xdg-desktop-portal-hyprland xorg-xwayland qt6-wayla
 pacman -S pipewire pipewire-alsa pipewire-pulse pipewire-jack pavucontrol wireplumber # 音频全家桶
 pacman -S wl-clipboard cliphist grim slurp # 剪切板支持,剪切板,截图,选取
 
-pacman -S ttf-hack ttf-hack-nerd wqy-zenhei wqy-microhei # 字体
+pacman -S ttf-hack ttf-hack-nerd wqy-zenhei wqy-microhei font-manager # 字体
 pacman -S yazi clash lazygit fzf # 必备组件
 pacman -S htop fastfetch # 仪表盘
 
@@ -92,13 +92,13 @@ systemctl enable bluetooth
 systemctl enable sshd
 
 ## fcitx5
-sudo pacman -S ibus libibus libnotify ibus-rime # 输入法全家桶
-echo "QT_IM_MODULE=ibus" >> /etc/environment
-echo "GTK_IM_MODULE=ibus" >> /etc/environment
-echo "XMODIFIERS=@im=ibus" >> /etc/environment
-echo "GLFW_IM_MODULE=ibus" >> /etc/environment
-echo "SDL_IM_MODULE=ibus" >> /etc/environment
-echo "INPUT_METHOD=ibus" >> /etc/environment
+sudo pacman -S fcitx5-im fcitx5-rime fcitx5-nord --noconfirm # 输入法全家桶
+echo "QT_IM_MODULE=fcitx" >> /etc/environment
+echo "GTK_IM_MODULE=fcitx" >> /etc/environment
+echo "XMODIFIERS=@im=fcitx" >> /etc/environment
+echo "GLFW_IM_MODULE=fcitx" >> /etc/environment
+echo "SDL_IM_MODULE=fcitx" >> /etc/environment
+echo "INPUT_METHOD=fcitx" >> /etc/environment
 
 cp -a /opt/WORKFLOW /home/chris/
 

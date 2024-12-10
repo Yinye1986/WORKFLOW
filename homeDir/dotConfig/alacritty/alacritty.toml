@@ -50,7 +50,7 @@ decorations     = "None" # Full：边框和标题栏；None：既无边框也无
 opacity = 0.85 # 背景不透明度，0.0到1.0的浮点数
 
 [font]
-normal              = { family = "Monaco Nerd Font", style = "Regular" } # 可以替换为你喜欢的字体和样式
+normal              = { family = "霞鹜文楷等宽", style = "Bold" } # 可以替换为你喜欢的字体和样式
 bold                = { style = "Bold" }                          # 可以添加family字段来指定不同的字体
 italic              = { style = "Italic" }                        # 可以添加family字段来指定不同的字体
 bold_italic         = { style = "Bold Italic" }                   # 可以添加family字段来指定不同的字体

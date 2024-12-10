@@ -18,9 +18,12 @@ ln -sf /home/chris/WORKFLOW/homeDir/dotConfig/alacritty /home/chris/.config/alac
 ln -sf /home/chris/WORKFLOW/homeDir/dotConfig/kitty /home/chris/.config/kitty
 ln -sf /home/chris/WORKFLOW/homeDir/dotConfig/yazi /home/chris/.config/yazi
 ln -sf /home/chris/WORKFLOW/homeDir/dotConfig/nvim /home/chris/.config/nvim
-ln -sf /home/chris/WORKFLOW/homeDir/dotConfig/ibus /home/chris/.config/ibus
+ln -sf /home/chris/WORKFLOW/homeDir/dotConfig/fcitx5 /home/chris/.config/fcitx5
 ln -sf /home/chris/WORKFLOW/homeDir/dotConfig/rofi /home/chris/.config/rofi
 ln -sf /home/chris/WORKFLOW/homeDir/dotConfig/i3 /home/chris/.config/i3
+ln -sf /home/chris/WORKFLOW/homeDir/dotConfig/clash /home/chris/.config/clash
+
+ln -sf /home/chris/WORKFLOW/homeDir/dotlocal/fcitx5 /home/chris/.local/share/fcitx5
 
 # for admin
 

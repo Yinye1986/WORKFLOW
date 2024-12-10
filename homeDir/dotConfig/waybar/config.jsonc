@@ -13,6 +13,8 @@
         "hyprland/window"
     ],
     "modules-right": [
+        "clock",
+        "temperature"
     ],
     "hyprland/workspaces": {
         "format": "{icon}",

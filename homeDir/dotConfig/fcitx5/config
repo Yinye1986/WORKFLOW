@@ -7,6 +7,10 @@ EnumerateForwardKeys=
 EnumerateBackwardKeys=
 # 轮换输入法时跳过第一个输入法
 EnumerateSkipFirst=False
+# 向前切换输入分组
+EnumerateGroupForwardKeys=
+# 向后切换输入法分组
+EnumerateGroupBackwardKeys=
 # 激活输入法
 ActivateKeys=
 # 取消激活输入法
@@ -19,21 +23,14 @@ NextPage=
 PrevCandidate=
 # 默认跳转下一个候选词
 NextCandidate=
+# 切换是否使用嵌入预编辑
+TogglePreedit=
 
 [Hotkey/TriggerKeys]
 0=Control+space
 
 [Hotkey/AltTriggerKeys]
 0=Shift_L
-
-[Hotkey/EnumerateGroupForwardKeys]
-0=Tab
-
-[Hotkey/EnumerateGroupBackwardKeys]
-0=backslash
-
-[Hotkey/TogglePreedit]
-0=Control+Alt+P
 
 [Behavior]
 # 默认状态为激活
@@ -53,7 +50,7 @@ CompactInputMethodInformation=True
 # 显示第一个输入法的信息
 ShowFirstInputMethodInformation=True
 # 默认页大小
-DefaultPageSize=7
+DefaultPageSize=10
 # 覆盖 Xkb 选项
 OverrideXkbOption=False
 # 自定义 Xkb 选项

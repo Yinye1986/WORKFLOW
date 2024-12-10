@@ -12,10 +12,13 @@ ln -sf /home/chris/WORKFLOW/homeDir/dotConfig/fish /home/chris/.config/fish
 ln -sf /home/chris/WORKFLOW/homeDir/dotConfig/alacritty /home/chris/.config/alacritty
 ln -sf /home/chris/WORKFLOW/homeDir/dotConfig/yazi /home/chris/.config/yazi
 ln -sf /home/chris/WORKFLOW/homeDir/dotConfig/nvim /home/chris/.config/nvim
-ln -sf /home/chris/WORKFLOW/homeDir/dotConfig/ibus /home/chris/.config/ibus
+ln -sf /home/chris/WORKFLOW/homeDir/dotConfig/fcitx5 /home/chris/.config/fcitx5
 ln -sf /home/chris/WORKFLOW/homeDir/dotConfig/rofi /home/chris/.config/rofi
 ln -sf /home/chris/WORKFLOW/homeDir/dotConfig/hypr /home/chris/.config/hypr
 ln -sf /home/chris/WORKFLOW/homeDir/dotConfig/waybar /home/chris/.config/waybar
+ln -sf /home/chris/WORKFLOW/homeDir/dotConfig/clash /home/chris/.config/clash
+
+ln -sf /home/chris/WORKFLOW/homeDir/dotlocal/fcitx5 /home/chris/.local/share/fcitx5
 
 ssh-keygen -t ed25519 -C "yinye1986@gmail.com"
 
