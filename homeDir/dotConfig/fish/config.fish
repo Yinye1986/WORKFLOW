@@ -36,3 +36,5 @@ function fm
 	end
 	rm -f -- "$tmp"
 end
+
+thefuck --alias | source

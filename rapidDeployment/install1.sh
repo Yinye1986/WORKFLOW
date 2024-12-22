@@ -72,7 +72,7 @@ pacman -S pipewire pipewire-alsa pipewire-pulse pipewire-jack pavucontrol wirepl
 pacman -S wl-clipboard cliphist grim slurp # 剪切板支持,剪切板,截图,选取
 
 pacman -S ttf-hack ttf-hack-nerd wqy-zenhei wqy-microhei font-manager # 字体
-pacman -S yazi clash lazygit fzf # 必备组件
+pacman -S yazi clash lazygit fzf thefuck # 必备组件
 pacman -S htop fastfetch # 仪表盘
 
 LOADKEYS_SERVICE_FILE_PATH="/etc/systemd/system/loadkeysColemak.service"
